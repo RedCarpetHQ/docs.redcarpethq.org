@@ -123,7 +123,6 @@ Ready to launch your film project on RedCarpetHQ?
 - **Documentation**: You're reading it!
 - **FAQ**: [Common questions answered](../support/faq.md)
 - **Support**: support@redcarpethq.com
-- **Community**: [Join our Discord](https://discord.gg/redcarpethq)
 
 ---
 

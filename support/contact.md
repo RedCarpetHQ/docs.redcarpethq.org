@@ -32,10 +32,6 @@ Response time: 5-7 business days
 
 ### Community
 
-**Discord**  
-💬 [Join our Discord](https://discord.gg/redcarpethq)  
-Real-time chat with community and team
-
 **Twitter/X**  
 🐦 [@RedCarpetHQ](https://twitter.com/redcarpethq)  
 Latest updates and announcements
