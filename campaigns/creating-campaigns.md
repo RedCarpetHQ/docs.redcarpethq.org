@@ -403,7 +403,7 @@ Cost: ~0.01-0.05 Sepolia ETH
 
 **Budget:**
 - Realistic floor target
-- Account for platform fees
+- No platform fees (you receive 100% of funds raised)
 - Plan for contingencies
 - Consider post-campaign costs
 

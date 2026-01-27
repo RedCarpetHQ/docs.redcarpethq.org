@@ -26,10 +26,10 @@ For detailed information about campaign economics and financial mechanics, pleas
 
 ### Fee Structure
 
-**5% Platform Fee:**
-- Deducted when producer withdraws
-- Distributed to ecosystem
-- Funds platform development
-- Rewards community participants
+**No Campaign Fees:**
+- Producers receive 100% of funds raised
+- No platform fees on campaign funding
+- Only blockchain gas fees apply
+- Trading fees (2.5%) fund platform development
 
 For complete details, visit the [Design Rationale](business-logic/design-rationale.md) and [Fee Distribution](business-logic/fee-distribution.md) pages.

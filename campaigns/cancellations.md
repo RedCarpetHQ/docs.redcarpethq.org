@@ -74,9 +74,9 @@ Partial refunds may occur in specific situations:
 - If a producer has already withdrawn some funds before cancellation
 - Remaining funds are distributed proportionally to supporters
 
-**Fee Deductions:**
-- Platform fees may be deducted in certain cancellation scenarios
-- This will be clearly communicated before you confirm the refund
+**No Fee Deductions:**
+- No platform fees are deducted from refunds
+- You receive the full proportional amount of your contribution
 
 ### Calculating Your Refund
 
@@ -116,9 +116,9 @@ If you've borrowed USDC using your campaign tokens as collateral:
 - Refunds from failed campaigns
 - Refunds from campaigns that violate ToS
 
-**Fees may apply for:**
-- Producer-initiated cancellations after significant funding
-- Specific circumstances outlined in Terms of Service
+**No platform fees apply:**
+- Full refunds for supporters
+- No deductions from refund amounts (except gas fees)
 
 ### Gas Fees
 

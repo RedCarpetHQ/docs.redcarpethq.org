@@ -121,7 +121,7 @@ This section goes over the details of supporting and creating campaigns—things
 
 **You can refund individual contributions if you want.** After your campaign has been funded, you can manually refund a supporter's contribution by sending USDC directly to their wallet. If you fully refund a supporter's contribution, you should communicate with them about burning their tokens, though you have no technical ability to force this.
 
-**We'll charge our fees before sending funds to your wallet.** RedCarpetHQ and its payment processors will deduct applicable fees (5% platform fee + payment processing fees) before transmitting the proceeds of a campaign to your designated wallet address.
+**Campaign funds are transferred directly to your wallet.** RedCarpetHQ does not charge platform fees on campaign funding. You will receive 100% of the funds raised (minus blockchain gas fees paid to network validators).
 
 **Some contributions may fail to process.** Because some blockchain transactions can fail—for instance, due to insufficient gas, network congestion, or wallet issues—the amount of funding you receive may not be equal to the full amount attempted by supporters (less fees).
 
@@ -179,17 +179,13 @@ RedCarpetHQ is not responsible for any losses resulting from these risks.
 
 ## Section 8. Our Fees
 
-We currently charge a 5% platform fee on amounts raised by successfully funded campaigns, in addition to standard fees to cover costs charged to us by our payment processors and blockchain networks.
+Creating an account on RedCarpetHQ is free. There are no platform fees charged on campaign funding. Producers receive 100% of the funds raised (minus blockchain gas fees).
 
-Creating an account on RedCarpetHQ is free. If you create a campaign that reaches its funding goal, RedCarpetHQ collects a 5% platform fee from the total amount raised. Our payment processor and blockchain network fees may vary based on network conditions and transaction complexity.
-
-**Fee Distribution:**
+**Trading Fees:** A 2.5% fee applies to all marketplace trades. This fee is distributed as follows:
 - 40% Protocol Treasury
 - 40% Trading Contest Pool
 - 10% UnifiedVault (Protocol)
 - 10% Producer Rewards
-
-**Trading Fees:** A 2.5% fee applies to all marketplace trades, distributed according to the same split above.
 
 **Gas Fees:** All blockchain transactions require gas fees paid in ETH (or the native token of the blockchain network). These fees go to blockchain validators, not to RedCarpetHQ. You are responsible for ensuring you have sufficient ETH to pay for gas fees.
 

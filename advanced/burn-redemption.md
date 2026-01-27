@@ -321,7 +321,7 @@ A: No, burn for refund is only available for failed or cancelled campaigns.
 A: No, refunds are available indefinitely, but claim promptly to avoid losing wallet access.
 
 **Q: Do I pay fees for refunds?**
-A: No platform fees, only blockchain gas fees.
+A: No platform fees on refunds. You only pay blockchain gas fees for the transaction.
 
 **Q: What if I already received dividends?**
 A: You keep the dividends, and your refund is adjusted accordingly.
