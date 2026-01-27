@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no, viewport-fit=cover">
+    <meta name="description" content="RedCarpetHQ">
+    <meta name="keywords" content="RedCarpetHQ">
+    <title></title>
+
+    <meta property="og:title" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="/images/docs-og.png">
+    <meta property="og:description" content="">
+    <meta property="og:type" content="website">
+
+    <meta name="twitter:card" content="summary">
+    <meta property="twitter:title" content="">
+    <meta name="twitter:image" content="/images/docs-og.png">
+    <meta property="twitter:description" content="">
+
+    <!-- Themes (light + dark) -->
+    <link rel="stylesheet" media="(prefers-color-scheme: dark)" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css">
+    <link rel="stylesheet" media="(prefers-color-scheme: light)" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
+    
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <!-- Google Tag Manager -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-JFCPVSGFB9"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-JFCPVSGFB9');
+    </script>
+    
+    <style>
+    :root {
+        --theme-hue: 346;
+        --theme-color: #ff164e;
+    }
+    </style>
+</head>
+<body>
+    <div id="app"></div>
+    <script>
+        // Docsify Configuration
+        window.$docsify = {
+            name: 'RedCarpetHQ Documentation',
+            repo: 'https://github.com/redcarpethq/movie-kickstarter',
+            logo: '/images/docs-logo.svg',
+            loadSidebar: true,
+            loadNavbar: false,
+            loadFooter: true,
+            coverpage: false,
+            onlyCover: false,
+            maxLevel: 4,
+            subMaxLevel: 3,
+            auto2top: true,
+            homepage: 'README.md',
+            notFoundPage: '404.md',
+            
+            // Search configuration
+            search: {
+                maxAge: 86400000,
+                paths: 'auto',
+                placeholder: 'Search documentation...',
+                noData: 'No results found',
+                depth: 6,
+                hideOtherSidebarContent: false
+            },
+            
+            // Theme configuration
+            themeable: {
+                readyTransition: true,
+                responsiveTables: true
+            },
+            
+            // Pagination
+            pagination: {
+                previousText: '← Previous',
+                nextText: 'Next →',
+                crossChapter: true,
+                crossChapterText: true
+            },
+            
+            // Share plugin
+            share: {
+                options: {
+                    color: '#ff164e'
+                },
+                reddit: true,
+                linkedin: true,
+                facebook: true,
+                twitter: true,
+            },
+            
+            // Custom page title
+            customPageTitle: {
+                prefix: "RedCarpetHQ Documentation",
+                separator: "|"
+            },
+            
+            // Tabs plugin
+            tabs: {
+                persist: true,
+                sync: true,
+                theme: 'classic',
+                tabComments: true,
+                tabHeadings: true
+            },
+            
+            // Copy code plugin
+            copyCode: {
+                buttonText: 'Copy',
+                errorText: 'Error',
+                successText: 'Copied!'
+            },
+            
+            // Alias for cleaner URLs
+            alias: {
+                '/.*/_sidebar.md': '/_sidebar.md',
+                '/.*/_footer.md': '/_footer.md'
+            }
+        };
+    </script>
+
+    <!-- Required -->
+    <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/js/docsify-themeable.min.js"></script>
+
+    <!-- Recommended Plugins -->
+    <script src="/js/docsify-canonical-plugin.js"></script>
+    <script src="/js/docsify-metatitle.js"></script>
+    <script src="/js/docsify-metadescription.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/@sujaykumarh/docsify-plugin-title@1.x/dist/plugin.min.js"></script>
+    
+    <!-- Search -->
+    <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.js"></script>
+    
+    <!-- Image zoom -->
+    <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
+    
+    <!-- Copy code -->
+    <script src="https://cdn.jsdelivr.net/npm/docsify-copy-code@2/dist/docsify-copy-code.min.js"></script>
+    
+    <!-- Tabs -->
+    <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1/dist/docsify-tabs.min.js"></script>
+    
+    <!-- Pagination -->
+    <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+    
+    <!-- Footer -->
+    <script src="//cdn.jsdelivr.net/npm/@alertbox/docsify-footer/dist/docsify-footer.min.js"></script>
+    
+    <!-- Share -->
+    <script src="//unpkg.com/docsify-share/build/index.min.js"></script>
+    
+    <!-- Syntax highlighting -->
+    <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-solidity.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-javascript.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-typescript.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-json.min.js"></script>
+</body>
+</html>
