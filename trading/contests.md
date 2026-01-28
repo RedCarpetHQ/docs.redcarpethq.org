@@ -218,7 +218,7 @@ Trading Fees = Buy Volume × 2.5%
 - Limited time events
 
 **Announcements:**
-- Discord/Twitter notifications
+- Twitter notifications
 - Website banners
 - Email updates (if subscribed)
 
@@ -330,4 +330,4 @@ A: Disqualification from contest, reward forfeiture, and potential account penal
 
 **Need Help?**
 
-If you have questions about trading contests, contact our support team at support@redcarpethq.com.
+If you have questions about trading contests, contact our support team at support@redcarpethq.org.

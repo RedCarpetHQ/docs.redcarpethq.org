@@ -47,7 +47,6 @@
   - [Smart Contracts](technical/contracts.md)
   - [Security & Audits](technical/security.md)
   - [Network Information](technical/network.md)
-  - [API Reference](technical/api.md)
 
 - **Support**
   - [FAQ](support/faq.md)

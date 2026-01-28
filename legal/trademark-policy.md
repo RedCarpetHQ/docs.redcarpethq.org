@@ -1,6 +1,6 @@
 # Trademark Policy
 
-**Effective Date:** February 11, 2025
+**Effective Date:** January 31, 2026
 
 ## What is RedCarpetHQ's Trademark Policy?
 
@@ -12,7 +12,7 @@ Using another party's trademark-protected materials in a way that confuses or mi
 
 Trademark owners should make every attempt to resolve a trademark dispute directly with the producer by messaging them directly from the campaign page.
 
-If you're unable to reach a resolution with the producer, you can report a trademark violation by emailing the following information to copyright@redcarpethq.com (please note that all information must be submitted in English):
+If you're unable to reach a resolution with the producer, you can report a trademark violation by emailing the following information to copyright@redcarpethq.org (please note that all information must be submitted in English):
 
 **Required Information:**
 
@@ -117,7 +117,7 @@ Your response should include:
 - Supporting evidence (trademark licenses, fair use arguments, etc.)
 - Contact information
 
-Send your response to: copyright@redcarpethq.com
+Send your response to: copyright@redcarpethq.org
 
 ## Preventive Measures for Producers
 
@@ -193,10 +193,10 @@ For all trademark inquiries and complaints, please contact:
 **RedCarpetHQ Pte. Ltd.**  
 Attn: Trademark Complaints  
 Singapore  
-Email: copyright@redcarpethq.com  
-Support: support@redcarpethq.com
+Email: copyright@redcarpethq.org  
+Support: support@redcarpethq.org
 
-**Please do not send trademark complaints to our general support email.** Use the dedicated copyright@redcarpethq.com address to ensure proper handling.
+**Please do not send trademark complaints to our general support email.** Use the dedicated copyright@redcarpethq.org address to ensure proper handling.
 
 ## Additional Resources
 
@@ -220,6 +220,6 @@ For related intellectual property matters, please see:
 
 ---
 
-**Last Updated:** February 11, 2025
+**Last Updated:** January 31, 2026
 
 This Trademark Policy is effective as of the date listed above and applies to all users of RedCarpetHQ.

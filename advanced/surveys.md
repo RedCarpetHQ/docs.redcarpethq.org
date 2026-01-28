@@ -1,7 +1,5 @@
 # Surveys & Governance
 
-> **Note:** Surveys and governance features are planned for future platform updates.
-
 ## Overview
 
 Surveys and governance mechanisms will allow producers to gather feedback from token holders and enable community participation in campaign decisions.
@@ -44,22 +42,12 @@ Surveys and governance mechanisms will allow producers to gather feedback from t
 - Delegation (future)
 - Time-weighted voting (future)
 
-## Coming Soon
-
-This feature is currently under development. Check back for updates on:
-
-- Survey creation tools
-- Voting interfaces
-- Governance frameworks
-- Community guidelines
-- Implementation timeline
-
 ## Current Workarounds
 
 Until surveys and governance are implemented:
 
 **For Producers:**
-- Use Discord/Twitter polls
+- Use Twitter polls
 - Email surveys to supporters
 - Community forums
 - Direct communication
@@ -73,7 +61,6 @@ Until surveys and governance are implemented:
 ## Stay Updated
 
 **Follow announcements:**
-- Discord server
 - Twitter @RedCarpetHQ
 - Email newsletter
 - Platform notifications

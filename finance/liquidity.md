@@ -102,7 +102,6 @@ Higher risk = higher returns to compensate
 ### Smart Contract Risk
 
 **Mitigation:**
-- Audited contracts
 - Time-tested code
 - Insurance fund protection
 - Community monitoring
@@ -144,21 +143,6 @@ Higher risk = higher returns to compensate
 - Adjusts to market conditions
 - Automated by smart contracts
 
-## Liquidity Mining (Future)
-
-Planned incentives for liquidity providers:
-
-**Potential Rewards:**
-- Platform tokens
-- Bonus APY
-- Governance rights
-- Fee discounts
-
-**Stay Updated:**
-- Follow announcements
-- Join community channels
-- Check roadmap updates
-
 ## Best Practices
 
 ### For Liquidity Providers
@@ -179,7 +163,7 @@ Planned incentives for liquidity providers:
 ## Frequently Asked Questions
 
 **Q: Is my deposit safe?**
-A: Deposits are protected by audited smart contracts, insurance fund, and stability pool, but DeFi always carries risk.
+A: Deposits are protected by battle-tested smart contracts, insurance fund, and stability pool, but DeFi always carries risk.
 
 **Q: Can I withdraw anytime?**
 A: Yes, subject to available liquidity. If fully utilized, you may need to wait for loan repayments.
@@ -205,4 +189,4 @@ A: Liquidations repay debt. If insufficient, stability pool covers losses. Insur
 
 **Need Help?**
 
-If you have questions about liquidity provision, contact our support team at support@redcarpethq.com.
+If you have questions about liquidity provision, contact our support team at support@redcarpethq.org.

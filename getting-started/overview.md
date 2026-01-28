@@ -44,7 +44,7 @@ Launch campaigns that issue ERC20 tokens to backers. Each token represents a sta
 ## Platform Architecture
 
 ### Smart Contract Layer
-All operations are governed by audited smart contracts on Ethereum Sepolia:
+All operations are governed by battle-tested smart contracts on Ethereum Sepolia:
 
 - **Campaign Contract**: Manages fundraising campaigns
 - **Market Contract**: Handles token trading
@@ -86,7 +86,7 @@ Modern Next.js application with:
 All campaign data, transactions, and token movements are recorded on-chain and publicly verifiable.
 
 ### Security
-- Audited smart contracts
+- Battle-tested smart contracts
 - Multi-layer risk management
 - Circuit breakers for extreme conditions
 - Screener-based quality control
@@ -122,7 +122,7 @@ Ready to launch your film project on RedCarpetHQ?
 
 - **Documentation**: You're reading it!
 - **FAQ**: [Common questions answered](../support/faq.md)
-- **Support**: support@redcarpethq.com
+- **Support**: support@redcarpethq.org
 
 ---
 

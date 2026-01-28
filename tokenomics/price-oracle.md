@@ -360,4 +360,4 @@ A: They can try, but VWAP weighting and wash trading detection make it difficult
 
 **Need Help?**
 
-If you have questions about price discovery or the oracle system, contact our support team at support@redcarpethq.com.
+If you have questions about price discovery or the oracle system, contact our support team at support@redcarpethq.org.

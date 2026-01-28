@@ -574,7 +574,6 @@ Fair distribution by contribution
 - ReentrancyGuard on all functions
 - Checks-Effects-Interactions pattern
 - State updates before external calls
-- Audited code
 
 ## Platform Evolution
 
@@ -617,4 +616,4 @@ Fair distribution by contribution
 
 ---
 
-**Next Steps:** [Understand Campaign Economics →](campaign-economics.md)
+**Next Steps:** [Understand Campaign Economics →](business-logic/campaign-economics.md)

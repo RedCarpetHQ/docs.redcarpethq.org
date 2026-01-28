@@ -78,7 +78,6 @@ RedCarpetHQ is a Web3-powered movie crowdfunding platform that enables producers
 - [Smart Contracts](technical/contracts.md)
 - [Security & Audits](technical/security.md)
 - [Network Information](technical/network.md)
-- [API Reference](technical/api.md)
 
 ### Support
 - [FAQ](support/faq.md)
@@ -109,7 +108,6 @@ RedCarpetHQ is a Web3-powered movie crowdfunding platform that enables producers
 
 ## 🔐 Security & Trust
 
-- **Smart Contract Audited**: All contracts undergo rigorous security reviews
 - **Screener Whitelist**: Quality control through producer screening
 - **Risk Oracle**: Real-time risk assessment for all tokens
 - **Circuit Breakers**: Automatic safety mechanisms for extreme conditions
@@ -122,8 +120,7 @@ RedCarpetHQ is a Web3-powered movie crowdfunding platform that enables producers
 
 ## 📞 Need Help?
 
-- **Email**: support@redcarpethq.com
-- **Discord**: [Join our community](https://discord.gg/redcarpethq)
+- **Email**: support@redcarpethq.org
 - **Twitter**: [@RedCarpetHQ](https://twitter.com/redcarpethq)
 
 ---

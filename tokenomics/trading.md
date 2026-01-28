@@ -388,4 +388,4 @@ A: Yes, each graduated campaign has its own tradable token.
 
 **Need Help?**
 
-If you have questions about trading, contact our support team at support@redcarpethq.com.
+If you have questions about trading, contact our support team at support@redcarpethq.org.

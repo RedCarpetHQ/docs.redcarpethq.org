@@ -94,7 +94,7 @@ Keeping supporters informed is crucial for campaign success. This guide covers b
 - Sensitive information
 - Exclusive content
 
-### Discord/Community Forums
+### Community Forums
 
 **Real-time interaction:**
 - Direct conversation
@@ -341,8 +341,6 @@ Keeping supporters informed is crucial for campaign success. This guide covers b
 - RedCarpetHQ (primary)
 - Mailchimp/Substack (email)
 - Buffer/Hootsuite (social media)
-- Discord (community)
-- Notion/Google Docs (planning)
 
 ### Content Creation
 
@@ -428,4 +426,4 @@ A: Listen to feedback, respond professionally, and improve based on valid concer
 
 **Need Help?**
 
-If you have questions about updates and communication, contact our support team at support@redcarpethq.com.
+If you have questions about updates and communication, contact our support team at support@redcarpethq.org.

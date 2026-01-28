@@ -370,4 +370,4 @@ A: Depends on how you exit. Graceful, fair exits maintain reputation; abandonmen
 
 **Need Help?**
 
-If you have questions about producer exit strategies, contact our support team at support@redcarpethq.com.
+If you have questions about producer exit strategies, contact our support team at support@redcarpethq.org.

@@ -308,4 +308,4 @@ Wallet configured? Great! Now:
 
 ---
 
-**Need Help?** Contact support@redcarpethq.com or visit [Troubleshooting](../support/troubleshooting.md)
+**Need Help?** Contact support@redcarpethq.org or visit [Troubleshooting](../support/troubleshooting.md)

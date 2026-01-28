@@ -1,6 +1,6 @@
 # Smart Contracts Reference
 
-RedCarpetHQ is powered by audited smart contracts on Ethereum Sepolia. This reference provides technical details for developers and advanced users.
+RedCarpetHQ is powered by battle-tested smart contracts on Ethereum Sepolia. This reference provides technical details for developers and advanced users.
 
 ## Contract Architecture
 

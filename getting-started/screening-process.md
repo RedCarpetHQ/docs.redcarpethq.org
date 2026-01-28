@@ -77,7 +77,7 @@ Screeners are trusted addresses authorized to:
 
 **Email Submission:**
 ```
-To: screening@redcarpethq.com
+To: screening@redcarpethq.org
 Subject: Producer Screening Application - [Your Name]
 
 Body:
@@ -236,7 +236,7 @@ Producers can request whitelist removal:
 5. Executes on-chain removal
 
 **Appeal:**
-- Email: appeals@redcarpethq.com
+- Email: appeals@redcarpethq.org
 - Provide explanation
 - Submit evidence
 - Wait for review decision
@@ -365,16 +365,16 @@ A: Contact screeners to discuss your specific needs.
 ## Contact Screeners
 
 **Application Inquiries:**  
-screening@redcarpethq.com
+screening@redcarpethq.org
 
 **Status Check:**  
 Include your wallet address and application date
 
 **Appeals:**  
-appeals@redcarpethq.com
+appeals@redcarpethq.org
 
 **General Support:**  
-support@redcarpethq.com
+support@redcarpethq.org
 
 ---
 

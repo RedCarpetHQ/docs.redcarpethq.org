@@ -184,10 +184,9 @@ Your Refund = (Your Tokens / Total Supply) × Available USDC
 
 ## Smart Contract Security
 
-### Audited Mechanism
+### Battle-Tested Mechanism
 
 **Security features:**
-- Audited smart contract code
 - No centralized control
 - Transparent calculations
 - Immutable logic
@@ -296,22 +295,6 @@ Expected Refund = (Your Tokens ÷ Total Supply) × Available USDC
 - Or keep as gift
 - No value transfer
 
-## Future Enhancements
-
-### Planned Features
-
-**Potential improvements:**
-- Batch burn for multiple campaigns
-- Automatic refund claims
-- Refund notifications
-- Enhanced analytics
-
-**Community feedback:**
-- Suggest improvements
-- Report issues
-- Share experiences
-- Help others
-
 ## Frequently Asked Questions
 
 **Q: Can I burn tokens from a successful campaign?**
@@ -343,4 +326,4 @@ A: They are permanently destroyed (sent to zero address), reducing total supply.
 
 **Need Help?**
 
-If you have questions about burn and redemption, contact our support team at support@redcarpethq.com.
+If you have questions about burn and redemption, contact our support team at support@redcarpethq.org.

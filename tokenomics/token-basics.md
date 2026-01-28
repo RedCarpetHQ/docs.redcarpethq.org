@@ -127,7 +127,7 @@ All campaign tokens follow the ERC-20 standard:
 ### Security Features
 
 **Built-in protections:**
-- Audited smart contract code
+- Battle-tested smart contract code
 - No mint/burn functions (except for refunds)
 - Transparent on-chain transactions
 - Immutable token supply
@@ -325,4 +325,4 @@ A: Market supply and demand, campaign success, revenue generation, and overall m
 
 **Need Help?**
 
-If you have questions about campaign tokens, contact our support team at support@redcarpethq.com.
+If you have questions about campaign tokens, contact our support team at support@redcarpethq.org.

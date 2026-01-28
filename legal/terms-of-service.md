@@ -1,6 +1,6 @@
 # Terms of Service
 
-**Effective Date:** February 11, 2025
+**Effective Date:** January 31, 2026
 
 ## Section 1. Welcome to RedCarpetHQ!
 
@@ -94,7 +94,7 @@ RedCarpetHQ is not a part of this contract—the contract is a direct agreement 
 
 5. **Producer Responsibility.** The producer is solely responsible for fulfilling their project and delivering any promised rewards. If they're unable to satisfy these terms, they may be subject to legal action by supporters. RedCarpetHQ reserves the right to take any action it deems appropriate with respect to campaign funds while a dispute is pending.
 
-6. **Smart Contract Execution.** All campaign transactions are executed through audited smart contracts on the Ethereum blockchain. Once a transaction is confirmed on the blockchain, it cannot be reversed. You acknowledge and accept the immutable nature of blockchain transactions.
+6. **Smart Contract Execution.** All campaign transactions are executed through battle-tested smart contracts on the Ethereum blockchain. Once a transaction is confirmed on the blockchain, it cannot be reversed. You acknowledge and accept the immutable nature of blockchain transactions.
 
 ## Section 5. How Funding Works
 
@@ -233,7 +233,7 @@ We comply with applicable copyright laws. To learn more about how we deal with c
 
 RedCarpetHQ has adopted a general policy regarding copyright in accordance with applicable law. RedCarpetHQ complies with copyright law, and we respond to notices of alleged infringement if they comply with the law and the requirements set forth in our Copyright Policy. We reserve the right to delete or disable content alleged to be infringing, and to terminate accounts for repeat infringers.
 
-If you'd like to submit a claim of copyright infringement, please contact us at legal@redcarpethq.com.
+If you'd like to submit a claim of copyright infringement, please contact us at legal@redcarpethq.org.
 
 ## Section 13. Deleting Your Account
 
@@ -295,7 +295,7 @@ To the fullest extent permitted by law, in no event will RedCarpetHQ, its direct
 
 We're located in Singapore, and any disputes with us have to be handled in Singapore under Singapore law.
 
-We at RedCarpetHQ encourage you to contact us if you're having an issue before resorting to the courts. Our RedCarpetHQ support team is on hand and ready to answer your questions. You can contact us at support@redcarpethq.com.
+We at RedCarpetHQ encourage you to contact us if you're having an issue before resorting to the courts. Our RedCarpetHQ support team is on hand and ready to answer your questions. You can contact us at support@redcarpethq.org.
 
 In the unfortunate situation where legal action does arise, these Terms (and all other rules, policies, or guidelines incorporated by reference) will be governed by and construed in accordance with the laws of Singapore, without giving effect to any principles of conflicts of law. You agree that RedCarpetHQ and its Services are deemed a passive website that does not give rise to jurisdiction over RedCarpetHQ or its parents, subsidiaries, affiliates, assigns, employees, agents, directors, officers, or shareholders, either specific or general, in any jurisdiction other than Singapore.
 
@@ -315,11 +315,11 @@ For questions about these Terms of Service, please contact us at:
 
 **RedCarpetHQ Pte. Ltd.**  
 Singapore  
-Email: legal@redcarpethq.com  
-Support: support@redcarpethq.com
+Email: legal@redcarpethq.org  
+Support: support@redcarpethq.org
 
 ---
 
-**Last Updated:** February 11, 2025
+**Last Updated:** January 31, 2026
 
 These Terms of Service are effective as of the date listed above and apply to all users of the Site and Services on or after that date.

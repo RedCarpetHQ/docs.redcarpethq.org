@@ -547,7 +547,6 @@ We sincerely apologize and thank you for your support.
 ### Community Management
 
 **Communication:**
-- Discord server
 - Telegram group
 - Twitter/X engagement
 - Reddit community
@@ -589,7 +588,7 @@ We sincerely apologize and thank you for your support.
 - Update views
 - Comment activity
 - Social media following
-- Discord/Telegram activity
+- Telegram activity
 
 **DeFi Activity:**
 - Vault deposits

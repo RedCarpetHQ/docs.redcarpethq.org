@@ -20,7 +20,7 @@ USDC for payments. Each campaign creates its own ERC20 token.
 
 ### Is it safe?
 
-Smart contracts are audited and follow security best practices. However, DeFi always carries risks. Never invest more than you can afford to lose.
+Smart contracts are battle-tested and follow security best practices. However, DeFi always carries risks. Never invest more than you can afford to lose.
 
 ## For Producers
 
@@ -36,7 +36,7 @@ See [Creating Campaigns](../campaigns/creating-campaigns.md) for detailed guide.
 
 ### Do I need approval to create campaigns?
 
-If screening is enabled, yes. Apply through screening@redcarpethq.com. If disabled, anyone can create campaigns.
+If screening is enabled, yes. Apply through screening@redcarpethq.org. If disabled, anyone can create campaigns.
 
 ### What are the fees?
 
@@ -202,10 +202,6 @@ Try speeding up or cancelling in MetaMask.
 
 Yes, platform is mobile-responsive. Use MetaMask Mobile or WalletConnect-compatible wallets.
 
-### Is there an API?
-
-GraphQL API via The Graph subgraph. See [API Reference](../technical/api.md).
-
 ## Financial Questions
 
 ### Are tokens securities?
@@ -261,16 +257,15 @@ Smart contracts are immutable and on blockchain. Frontend can be accessed via IP
 
 ### What if there's a bug?
 
-- Report immediately to security@redcarpethq.com
-- Bug bounty program (details TBD)
+- Report immediately to security@redcarpethq.org
 - Emergency pause mechanisms in place
 - Insurance fund for bad debt
 
 ### How do I report issues?
 
-- **Security**: security@redcarpethq.com
-- **Support**: support@redcarpethq.com
-- **General**: hello@redcarpethq.com
+- **Security**: security@redcarpethq.org
+- **Support**: support@redcarpethq.org
+- **General**: hello@redcarpethq.org
 
 ## Campaign-Specific Questions
 
@@ -405,15 +400,10 @@ First person to claim in an epoch gets 1% bonus from prize pool.
 
 ## Security Questions
 
-### Are contracts audited?
-
-Yes, by reputable security firms. Audit reports available on request.
-
 ### What if there's a hack?
 
 - Emergency pause mechanisms
 - Insurance fund for bad debt
-- Bug bounty program
 - Incident response plan
 
 ### How do I stay safe?
@@ -438,8 +428,7 @@ Protects user funds in emergencies.
 ### How do I get help?
 
 - **Documentation**: You're reading it!
-- **Email**: support@redcarpethq.com
-- **Discord**: [Join community](https://discord.gg/redcarpethq)
+- **Email**: support@redcarpethq.org
 - **Twitter**: [@RedCarpetHQ](https://twitter.com/redcarpethq)
 
 ### Where can I learn more?
@@ -451,4 +440,4 @@ Protects user funds in emergencies.
 
 ---
 
-**Still have questions?** Contact support@redcarpethq.com
+**Still have questions?** Contact support@redcarpethq.org

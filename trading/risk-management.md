@@ -105,8 +105,6 @@ Action Required:
 - Dependency risks
 
 **Mitigation:**
-- Contracts are audited
-- Bug bounty program
 - Time-tested code
 - Insurance fund protection
 - Community monitoring
@@ -262,7 +260,6 @@ Total: $10,000
 **Tools:**
 - Platform notifications
 - Email alerts
-- Discord bots
 - Custom scripts
 - Third-party services
 
@@ -292,8 +289,7 @@ Total: $10,000
 5. Warn community
 
 **Contact:**
-- support@redcarpethq.com
-- Discord moderators
+- support@redcarpethq.org
 - Twitter @RedCarpetHQ
 
 ### If Funds Are Lost
@@ -383,7 +379,7 @@ A: In trading, you can only lose your investment. In borrowing, you can lose you
 A: Check the risk tier (GREEN/YELLOW/RED), trading volume, and price stability.
 
 **Q: What happens if the platform gets hacked?**
-A: Smart contracts are audited and have insurance fund protection, but DeFi always carries risk.
+A: Smart contracts are battle-tested and have insurance fund protection, but DeFi always carries risk.
 
 **Q: Should I use maximum LTV when borrowing?**
 A: No, maintain a buffer (50-60% recommended) to avoid liquidation risk.
@@ -403,4 +399,4 @@ A: No, blockchain transactions are irreversible. Always verify addresses.
 
 **Need Help?**
 
-If you have questions about risk management, contact our support team at support@redcarpethq.com.
+If you have questions about risk management, contact our support team at support@redcarpethq.org.

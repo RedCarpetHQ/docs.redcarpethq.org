@@ -21,8 +21,7 @@ Unlike traditional order books, RedCarpetHQ uses an escrow system:
 4. Receive tokens instantly
 
 **Atomic Swaps:**
-- All-or-nothing execution
-- No partial fills (by default)
+- Partial fills allowed (by default)
 - Instant settlement
 - No counterparty risk
 
@@ -524,13 +523,12 @@ Long-term strategy
 ### Getting Help
 
 **Support Channels:**
-- Discord: Real-time help
-- Email: support@redcarpethq.com
-- Docs: [Troubleshooting](../support/troubleshooting.md)
+- Email: support@redcarpethq.org
+- Docs: [Troubleshooting](support/troubleshooting.md)
 
 ---
 
 **Next Steps:**
-- [Learn About Creating Offers →](creating-offers.md)
-- [Participate in Trading Contests →](contests.md)
-- [Understand Risk Management →](risk-management.md)
+- [Learn About Creating Offers →](trading/creating-offers.md)
+- [Participate in Trading Contests →](trading/contests.md)
+- [Understand Risk Management →](trading/risk-management.md)

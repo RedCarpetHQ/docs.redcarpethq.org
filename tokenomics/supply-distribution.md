@@ -301,22 +301,6 @@ Anyone can verify token distribution:
 
 ## Advanced Topics
 
-### Token Splits (Future Feature)
-
-Potential future feature to adjust token supply:
-
-**Why token splits?**
-- Make tokens more affordable
-- Improve psychological pricing
-- Increase trading activity
-- Maintain proportional ownership
-
-**Example:**
-- 10:1 split
-- 1,000 tokens → 10,000 tokens
-- Ownership % unchanged
-- Price adjusts proportionally
-
 ### Buyback Programs
 
 Producers may implement buybacks:
@@ -366,4 +350,4 @@ A: No, there are no staking rewards or supply inflation mechanisms.
 
 **Need Help?**
 
-If you have questions about token supply and distribution, contact our support team at support@redcarpethq.com.
+If you have questions about token supply and distribution, contact our support team at support@redcarpethq.org.

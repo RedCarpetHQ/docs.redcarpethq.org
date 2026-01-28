@@ -1,8 +1,8 @@
-# Security & Audits
+# Security
 
 ## Overview
 
-Security is paramount on RedCarpetHQ. This guide covers our security measures, audit history, best practices, and how to report vulnerabilities.
+Security is paramount on RedCarpetHQ. This guide covers our security measures, best practices, and how to report vulnerabilities.
 
 ## Smart Contract Security
 
@@ -106,7 +106,6 @@ Security is paramount on RedCarpetHQ. This guide covers our security measures, a
 
 **Mitigation:**
 - Professional audits
-- Bug bounty program
 - Gradual rollout
 - Circuit breakers
 - Insurance fund
@@ -127,40 +126,10 @@ Security is paramount on RedCarpetHQ. This guide covers our security measures, a
 - Wait for all-clear
 - Report suspicious activity
 
-## Bug Bounty Program
-
-### Scope
-
-**In Scope:**
-- Smart contracts
-- Web application
-- API endpoints
-- Infrastructure
-
-**Out of Scope:**
-- Third-party services
-- Social engineering
-- Physical security
-- Known issues
-
-### Rewards
-
-**Severity Levels:**
-- **Critical:** Up to $50,000
-- **High:** Up to $10,000
-- **Medium:** Up to $2,500
-- **Low:** Up to $500
-
-**Criteria:**
-- Severity of impact
-- Quality of report
-- Proof of concept
-- Responsible disclosure
-
 ### Reporting
 
 **How to Report:**
-1. Email: security@redcarpethq.com
+1. Email: security@redcarpethq.org
 2. Include detailed description
 3. Provide proof of concept
 4. Suggest remediation
@@ -180,7 +149,7 @@ Security is paramount on RedCarpetHQ. This guide covers our security measures, a
 1. Stop all transactions
 2. Disconnect wallet
 3. Document everything
-4. Report to security@redcarpethq.com
+4. Report to security@redcarpethq.org
 5. Wait for guidance
 
 **Information to Provide:**
@@ -334,7 +303,6 @@ Security is paramount on RedCarpetHQ. This guide covers our security measures, a
 
 **How You Can Help:**
 - Report vulnerabilities responsibly
-- Participate in bug bounty
 - Share security concerns
 - Educate other users
 - Follow best practices
@@ -345,9 +313,8 @@ Security is paramount on RedCarpetHQ. This guide covers our security measures, a
 
 **Verified Communications:**
 - Website: https://docs.redcarpethq.org
-- Email: security@redcarpethq.com
+- Email: security@redcarpethq.org
 - Twitter: @RedCarpetHQ (verified)
-- Discord: [Official invite only]
 
 ### Educational Resources
 
@@ -376,7 +343,7 @@ A: Contact support immediately, monitor your wallet, revoke approvals if possibl
 A: We collect minimal data and protect it with industry-standard security measures.
 
 **Q: How do I report a security issue?**
-A: Email security@redcarpethq.com with detailed information. Do not publicly disclose.
+A: Email security@redcarpethq.org with detailed information. Do not publicly disclose.
 
 ## Related Resources
 
@@ -390,6 +357,6 @@ A: Email security@redcarpethq.com with detailed information. Do not publicly dis
 
 **Report Security Issues:**
 
-Email: security@redcarpethq.com  
+Email: security@redcarpethq.org  
 
 **Never share security concerns publicly before they are fixed.**

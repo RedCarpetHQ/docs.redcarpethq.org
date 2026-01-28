@@ -313,7 +313,6 @@ First Claimer Bounty: $0.80 (1%)
 
 **Security:**
 - Smart contract audits
-- Bug bounty program
 - Security monitoring
 - Incident response
 
@@ -566,6 +565,6 @@ Date       | Amount | Transaction Hash
 ---
 
 **Next Steps:**
-- [Understand DeFi Architecture →](defi-architecture.md)
-- [Learn About Risk Tiers →](risk-tiers.md)
-- [Explore Campaign Economics →](campaign-economics.md)
+- [Understand DeFi Architecture →](business-logic/defi-architecture.md)
+- [Learn About Risk Tiers →](business-logic/risk-tiers.md)
+- [Explore Campaign Economics →](business-logic/campaign-economics.md)

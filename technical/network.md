@@ -335,4 +335,4 @@ A: Until thoroughly tested and ready for mainnet. Timeline TBA.
 
 **Need Help?**
 
-If you have questions about network configuration, contact our support team at support@redcarpethq.com.
+If you have questions about network configuration, contact our support team at support@redcarpethq.org.

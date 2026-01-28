@@ -244,7 +244,7 @@ If you've borrowed USDC using your campaign tokens as collateral:
 
 ### Security Considerations
 
-- Refunds are processed through audited smart contracts
+- Refunds are processed through battle-tested smart contracts
 - No centralized party can block your refund
 - Blockchain ensures transparency and fairness
 - All refund transactions are publicly verifiable
@@ -278,4 +278,4 @@ A: You can burn any amount of your tokens for a proportional refund, but this is
 
 **Need Help?**
 
-If you have questions about cancellations or refunds, contact our support team at support@redcarpethq.com.
+If you have questions about cancellations or refunds, contact our support team at support@redcarpethq.org.

@@ -7,27 +7,27 @@ Get in touch with the RedCarpetHQ team.
 ### Email Support
 
 **General Inquiries**  
-📧 hello@redcarpethq.com  
+📧 hello@redcarpethq.org  
 Response time: 24-48 hours
 
 **Technical Support**  
-📧 support@redcarpethq.com  
+📧 support@redcarpethq.org  
 Response time: 12-24 hours
 
 **Producer Screening**  
-📧 screening@redcarpethq.com  
+📧 screening@redcarpethq.org  
 Response time: 3-7 business days
 
 **Security Issues**  
-📧 security@redcarpethq.com  
+📧 security@redcarpethq.org  
 Response time: Immediate (critical issues)
 
 **Appeals & Disputes**  
-📧 appeals@redcarpethq.com  
+📧 appeals@redcarpethq.org  
 Response time: 3-5 business days
 
 **Partnership Inquiries**  
-📧 partnerships@redcarpethq.com  
+📧 partnerships@redcarpethq.org  
 Response time: 5-7 business days
 
 ### Community
@@ -107,7 +107,6 @@ See [Screening Process](../getting-started/screening-process.md) for details.
 
 | Channel | Response Time | Best For |
 |---------|---------------|----------|
-| Discord | Minutes-Hours | Quick questions |
 | Twitter | Hours-Days | Public inquiries |
 | Email (Support) | 12-24 hours | Technical issues |
 | Email (General) | 24-48 hours | General questions |
@@ -135,49 +134,31 @@ Currently supporting:
 
 Additional languages coming soon.
 
-## Bug Bounty
+## Report
 
 **Report Security Issues:**
-security@redcarpethq.com
-
-**Rewards:**
-- Critical: Up to $10,000
-- High: Up to $5,000
-- Medium: Up to $1,000
-- Low: Up to $500
-
-**Scope:**
-- Smart contracts
-- Frontend application
-- API endpoints
-- Infrastructure
-
-**Out of Scope:**
-- Testnet issues (unless critical)
-- Known issues
-- Social engineering
-- Third-party services
+security@redcarpethq.org
 
 ## Feedback
 
 We value your feedback!
 
 **Feature Requests:**  
-📧 feedback@redcarpethq.com
+📧 feedback@redcarpethq.org
 
 **User Experience:**  
-📧 ux@redcarpethq.com
+📧 ux@redcarpethq.org
 
 **Documentation:**  
-📧 docs@redcarpethq.com
+📧 docs@redcarpethq.org
 
 ## Press & Media
 
 **Press Inquiries:**  
-📧 press@redcarpethq.com
+📧 press@redcarpethq.org
 
 **Media Kit:**  
-🎨 [Download Media Kit](https://redcarpethq.com/press)
+🎨 [Download Media Kit](https://redcarpethq.org/press)
 
 **Brand Assets:**
 - Logo files
@@ -188,13 +169,13 @@ We value your feedback!
 ## Partnerships
 
 **Integration Partners:**  
-📧 integrations@redcarpethq.com
+📧 integrations@redcarpethq.org
 
 **Strategic Partners:**  
-📧 partnerships@redcarpethq.com
+📧 partnerships@redcarpethq.org
 
 **Investors:**  
-📧 investors@redcarpethq.com
+📧 investors@redcarpethq.org
 
 ## Social Media
 
@@ -215,8 +196,8 @@ RedCarpetHQ
 ## Emergency Contact
 
 **Critical Security Issues:**  
-📧 security@redcarpethq.com  
-🔒 PGP Key: [Download](https://redcarpethq.com/pgp)
+📧 security@redcarpethq.org  
+🔒 PGP Key: [Download](https://redcarpethq.org/pgp)
 
 **For Immediate Attention:**
 - Mark email subject: **[URGENT]**
@@ -227,13 +208,13 @@ RedCarpetHQ
 ## Legal
 
 **Terms of Service:**  
-📄 [View Terms](https://redcarpethq.com/terms)
+📄 [View Terms](https://redcarpethq.org/terms)
 
 **Privacy Policy:**  
-📄 [View Privacy Policy](https://redcarpethq.com/privacy)
+📄 [View Privacy Policy](https://redcarpethq.org/privacy)
 
 **Legal Inquiries:**  
-📧 legal@redcarpethq.com
+📧 legal@redcarpethq.org
 
 ## Frequently Asked Questions
 
@@ -262,5 +243,3 @@ When engaging with our community:
 We appreciate your interest in RedCarpetHQ. Whether you're a filmmaker, supporter, developer, or enthusiast, we're here to help you succeed.
 
 ---
-
-**Need immediate help?** Join our [Discord](https://discord.gg/redcarpethq) for real-time support!

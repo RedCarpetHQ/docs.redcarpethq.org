@@ -247,7 +247,6 @@ RED Tier:
 
 **Alert Systems:**
 - Email notifications (if enabled)
-- Discord announcements
 - Platform notifications
 - On-chain events
 
@@ -387,4 +386,4 @@ A: They can try to improve it through legitimate trading activity, but manipulat
 
 **Need Help?**
 
-If you have questions about risk tiers, contact our support team at support@redcarpethq.com.
+If you have questions about risk tiers, contact our support team at support@redcarpethq.org.

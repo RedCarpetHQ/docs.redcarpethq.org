@@ -84,7 +84,6 @@ Common issues and solutions for RedCarpetHQ users.
 2. **Get Sepolia ETH**
    - Use faucets (see [Wallet Setup](../getting-started/wallet-setup.md))
    - Request from support
-   - Ask in Discord
 
 3. **Get Test USDC**
    - Platform faucet (if available)
@@ -211,7 +210,7 @@ Or: Wait for pending tx to clear
    ```
    If screening enabled:
    - Must be whitelisted
-   - Apply at screening@redcarpethq.com
+   - Apply at screening@redcarpethq.org
    - Wait for approval
    ```
 
@@ -654,13 +653,8 @@ Check:
 
 ### Contact Channels
 
-**Discord** (Fastest)
-- Real-time help
-- Community support
-- Team members active
-
 **Email** (Detailed)
-- support@redcarpethq.com
+- support@redcarpethq.org
 - Include all information above
 - Response: 12-24 hours
 
@@ -677,12 +671,8 @@ Check:
 - Contract bugs
 
 **Contact:**
-- security@redcarpethq.com
+- security@redcarpethq.org
 - Mark: [URGENT]
 - Provide all details
 
 ---
-
-**Still Having Issues?**
-
-Join our [Discord](https://discord.gg/redcarpethq) for real-time support or email support@redcarpethq.com with detailed information about your problem.

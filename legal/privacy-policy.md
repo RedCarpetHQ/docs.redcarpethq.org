@@ -1,6 +1,6 @@
 # Privacy Policy
 
-**Effective Date:** February 11, 2025
+**Effective Date:** January 31, 2026
 
 Thanks for visiting RedCarpetHQ's Privacy Policy (the "Policy"). This Policy explains how we collect, use, and protect your personal information.
 
@@ -167,7 +167,7 @@ When a Supporter contributes to a campaign, the Producer will receive personal i
 
 Producers are required to keep Supporters' personal information confidential and may only use Supporters' personal information they get from RedCarpetHQ as strictly necessary to communicate with Supporters directly and provide rewards. Producers may not sell any personal information or use it for targeted advertising purposes.
 
-Producers never receive Supporters' credit card details or other payment information. Producers also should not ask for personal information that isn't necessary to provide your reward and should never request sensitive personal information, such as an identification number or payment information. Contact us at support@redcarpethq.com if you receive a request for personal information that seems inappropriate or excessive.
+Producers never receive Supporters' credit card details or other payment information. Producers also should not ask for personal information that isn't necessary to provide your reward and should never request sensitive personal information, such as an identification number or payment information. Contact us at support@redcarpethq.org if you receive a request for personal information that seems inappropriate or excessive.
 
 Collaborators are other parties that Producers can appoint to help manage their campaign. These Collaborators may be able to access the personal information made available to Producers and are similarly bound by this Privacy Policy and required to treat Supporters' personal information with the same care and respect as Producers are.
 
@@ -183,11 +183,11 @@ RedCarpetHQ's website and app may include links to other websites or services wh
 
 RedCarpetHQ does not knowingly collect personal information from people under the age of 18. People under the age of 18 are not permitted to register for a RedCarpetHQ account or contribute to campaigns. You must be at least 18 years old to run a campaign as a Producer or to be appointed as a Collaborator.
 
-If you believe that someone under the age of 18 has provided us with personal information or that someone under 18 is a Producer or Collaborator on a RedCarpetHQ campaign, please contact us at dpo@redcarpethq.com. If we learn that we have received personal information from someone under the age of 18, we will delete such personal information in accordance with applicable law. We will take appropriate actions to remove campaigns run by people under the age of 18.
+If you believe that someone under the age of 18 has provided us with personal information or that someone under 18 is a Producer or Collaborator on a RedCarpetHQ campaign, please contact us at dpo@redcarpethq.org. If we learn that we have received personal information from someone under the age of 18, we will delete such personal information in accordance with applicable law. We will take appropriate actions to remove campaigns run by people under the age of 18.
 
 ## Privacy Rights and Choices
 
-If at any time, you believe that your personal information has been used in violation of this Policy, you may report your concerns to us by emailing dpo@redcarpethq.com.
+If at any time, you believe that your personal information has been used in violation of this Policy, you may report your concerns to us by emailing dpo@redcarpethq.org.
 
 **User Account Settings:**
 - All RedCarpetHQ users can manage personal information in their account settings
@@ -204,7 +204,7 @@ If at any time, you believe that your personal information has been used in viol
 - If we rely on your consent for personal information processing, you may withdraw your consent at any time
 - RedCarpetHQ will not discriminate against any user for exercising privacy rights provided by applicable law
 
-If you would like further information regarding your legal rights under applicable data privacy law or would like to exercise any of them that are relevant to you, contact us at dpo@redcarpethq.com.
+If you would like further information regarding your legal rights under applicable data privacy law or would like to exercise any of them that are relevant to you, contact us at dpo@redcarpethq.org.
 
 ## Our Communications
 
@@ -233,7 +233,7 @@ Your account information is protected by a password, which you should choose car
 - Never share your private keys or seed phrases with anyone, including RedCarpetHQ staff
 - Be cautious of phishing attempts and only interact with official RedCarpetHQ contracts
 
-We encourage the responsible disclosure of vulnerabilities of our Services by emailing security@redcarpethq.com.
+We encourage the responsible disclosure of vulnerabilities of our Services by emailing security@redcarpethq.org.
 
 ## International Data Transfers
 
@@ -257,21 +257,21 @@ When applicable under data protection laws, RedCarpetHQ relies on the following 
 **Your Consent:**
 - We may ask for your consent for certain personal information processing
 - For example, we may rely on your consent to use non-essential cookies or to provide you with marketing communications
-- When you consent, you may withdraw your consent at any time by contacting us at dpo@redcarpethq.com
+- When you consent, you may withdraw your consent at any time by contacting us at dpo@redcarpethq.org
 
 ## Contact Us
 
-To contact our Data Protection Officer with questions about this Policy, please email dpo@redcarpethq.com.
+To contact our Data Protection Officer with questions about this Policy, please email dpo@redcarpethq.org.
 
 You can contact us in writing at:
 
 **RedCarpetHQ Pte. Ltd.**  
 Singapore  
-Email: dpo@redcarpethq.com  
-Support: support@redcarpethq.com
+Email: dpo@redcarpethq.org  
+Support: support@redcarpethq.org
 
 ---
 
-**Last Updated:** February 11, 2025
+**Last Updated:** January 31, 2026
 
 This Privacy Policy is effective as of the date listed above and applies to all users of the Site and Services on or after that date.

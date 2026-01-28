@@ -1,6 +1,6 @@
 # Cookie Policy
 
-**Effective Date:** February 11, 2025
+**Effective Date:** January 31, 2026
 
 ## Cookies & Other Tracking Technologies
 
@@ -149,9 +149,9 @@ When you connect your Web3 wallet to RedCarpetHQ, we use cookies to maintain you
 
 If you have questions about this Cookie Policy or our privacy practices, please contact us at:
 
-**Email:** dpo@redcarpethq.com  
-**Support:** support@redcarpethq.com
+**Email:** dpo@redcarpethq.org  
+**Support:** support@redcarpethq.org
 
 ---
 
-**Last Updated:** February 11, 2025
+**Last Updated:** January 31, 2026
