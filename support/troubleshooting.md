@@ -28,7 +28,7 @@ Common issues and solutions for RedCarpetHQ users.
    - Restart browser
 
 3. **Check Network**
-   - Switch to Sepolia in MetaMask
+   - Switch to BNB Chain Testnet in MetaMask
    - Verify RPC connection
    - Try different RPC endpoint
 
@@ -46,18 +46,18 @@ Common issues and solutions for RedCarpetHQ users.
 
 **Solutions:**
 
-1. **Switch to Sepolia**
+1. **Switch to BNB Chain Testnet**
    ```
-   MetaMask → Network dropdown → Sepolia
+   MetaMask → Network dropdown → BNB Chain Testnet
    ```
 
-2. **Add Sepolia Manually**
+2. **Add BNB Chain Testnet Manually**
    ```
-   Network Name: Sepolia
-   RPC URL: https://sepolia.infura.io/v3/YOUR_KEY
+   Network Name: BNB Chain Testnet
+   RPC URL: https://data-seed-prebsc-1-s1.binance.org:8545
    Chain ID: 11155111
    Currency: ETH
-   Explorer: https://sepolia.etherscan.io
+   Explorer: https://testnet.bscscan.io
    ```
 
 3. **Auto-Switch**
@@ -76,12 +76,12 @@ Common issues and solutions for RedCarpetHQ users.
 
 1. **Check Balances**
    ```
-   Sepolia ETH: For gas fees
+   BNB Chain Testnet tBNB: For gas fees
    USDC: For purchases/trades
    Tokens: For selling/collateral
    ```
 
-2. **Get Sepolia ETH**
+2. **Get BNB Chain Testnet tBNB**
    - Use faucets (see [Wallet Setup](../getting-started/wallet-setup.md))
    - Request from support
 
@@ -102,7 +102,7 @@ Common issues and solutions for RedCarpetHQ users.
 **Solutions:**
 
 1. **Check Network Status**
-   - Visit sepolia.etherscan.io
+   - Visit testnet.bscscan.io
    - Check for network issues
    - Verify block production
 
@@ -216,8 +216,8 @@ Or: Wait for pending tx to clear
 
 2. **Verify Requirements**
    ```
-   ✓ Sufficient Sepolia ETH (~0.1)
-   ✓ Connected to Sepolia network
+   ✓ Sufficient BNB Chain Testnet tBNB (~0.1)
+   ✓ Connected to BNB Chain Testnet network
    ✓ All fields filled correctly
    ✓ Token symbol unique
    ✓ Dates valid (future times)
@@ -601,7 +601,7 @@ Check:
 
 2. **Check Blockchain**
    ```
-   Visit: sepolia.etherscan.io
+   Visit: testnet.bscscan.io
    Enter: Your wallet address
    Verify: Actual balance
    ```

@@ -8,11 +8,11 @@ RedCarpetHQ is a decentralized platform for movie producers to raise funds throu
 
 ### Is RedCarpetHQ live?
 
-Yes, on Ethereum Sepolia testnet. Mainnet launch coming after thorough testing and audits.
+Yes, on BNB Chain Testnet. Mainnet launch coming after thorough testing and audits.
 
 ### What blockchain does it use?
 
-Currently Ethereum Sepolia testnet. Mainnet deployment planned on Ethereum.
+Currently BNB Chain Testnet. Mainnet deployment planned on BNB Chain.
 
 ### What tokens are supported?
 
@@ -27,7 +27,7 @@ Smart contracts are battle-tested and follow security best practices. However, D
 ### How do I create a campaign?
 
 1. Get whitelisted by screeners (if screening enabled)
-2. Connect wallet with Sepolia ETH
+2. Connect wallet with BNB Chain Testnet tBNB
 3. Click "Create Campaign"
 4. Fill in all details
 5. Deploy to blockchain
@@ -173,12 +173,10 @@ If your collateral value drops below liquidation threshold:
 
 MetaMask (recommended), WalletConnect, Coinbase Wallet, or Rainbow Wallet.
 
-### How do I get Sepolia ETH?
+### How do I get BNB Chain Testnet tBNB?
 
 Use faucets:
-- sepoliafaucet.com
-- Alchemy Sepolia Faucet
-- Infura Sepolia Faucet
+- BNB Chain Testnet Faucet
 
 See [Wallet Setup](../getting-started/wallet-setup.md).
 
@@ -188,7 +186,7 @@ Contact support or use platform faucet (if available).
 
 ### What are gas fees?
 
-Transaction costs paid in ETH. Varies by network congestion. On Sepolia testnet, ETH is free from faucets.
+Transaction costs paid in BNB Chain Testnet tBNB. Varies by network congestion. On BNB Chain Testnet, tBNB is free from faucets.
 
 ### Why is my transaction pending?
 

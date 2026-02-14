@@ -2,33 +2,33 @@
 
 ## Overview
 
-RedCarpetHQ operates exclusively on the Ethereum Sepolia testnet. This guide covers network details, configuration, and how to interact with the platform.
+RedCarpetHQ operates exclusively on the BNB Chain Testnet. This guide covers network details, configuration, and how to interact with the platform.
 
 ## Network Details
 
-### Ethereum Sepolia Testnet
+### BNB Chain Testnet
 
 **Network Information:**
-- **Network Name:** Sepolia
-- **Chain ID:** 11155111
-- **Currency Symbol:** SepoliaETH
-- **Block Explorer:** https://sepolia.etherscan.io
-- **RPC URL:** https://sepolia.infura.io/v3/YOUR-API-KEY
+- **Network Name:** BNB Chain Testnet
+- **Chain ID:** 97
+- **Currency Symbol:** tBNB
+- **Block Explorer:** https://testnet.bscscan.io
+- **RPC URL:** https://data-seed-prebsc-1-s1.binance.org:8545
 
-**Why Sepolia?**
+**Why BNB Chain Testnet?**
 - Stable testnet
 - Long-term support
 - Active community
 - Proof-of-Stake consensus
 - Similar to mainnet
 
-## Adding Sepolia to MetaMask
+## Adding BNB Chain Testnet to MetaMask
 
 ### Automatic Addition
 
 **Via Chainlist:**
 1. Visit https://chainlist.org
-2. Search for "Sepolia"
+2. Search for "BNB Chain Testnet"
 3. Click "Add to MetaMask"
 4. Approve in MetaMask
 
@@ -40,38 +40,23 @@ RedCarpetHQ operates exclusively on the Ethereum Sepolia testnet. This guide cov
 3. Select "Add Network"
 4. Click "Add a network manually"
 5. Enter details:
-   - **Network Name:** Sepolia
-   - **New RPC URL:** https://sepolia.infura.io/v3/YOUR-API-KEY
-   - **Chain ID:** 11155111
-   - **Currency Symbol:** ETH
-   - **Block Explorer:** https://sepolia.etherscan.io
+   - **Network Name:** BNB Chain Testnet
+   - **New RPC URL:** https://data-seed-prebsc-1-s1.binance.org:8545
+   - **Chain ID:** 97
+   - **Currency Symbol:** tBNB
+   - **Block Explorer:** https://testnet.bscscan.io
 6. Click "Save"
 
 ## Getting Test ETH
 
-### Sepolia Faucets
+### BNB Chain Testnet Faucets
 
 **Recommended Faucets:**
 
-**1. Alchemy Sepolia Faucet**
-- URL: https://sepoliafaucet.com
-- Requires: Alchemy account
-- Amount: 0.5 SepoliaETH per day
-
-**2. Infura Sepolia Faucet**
-- URL: https://www.infura.io/faucet/sepolia
-- Requires: Infura account
-- Amount: 0.5 SepoliaETH per day
-
-**3. QuickNode Faucet**
-- URL: https://faucet.quicknode.com/ethereum/sepolia
-- Requires: QuickNode account
-- Amount: 0.1 SepoliaETH per request
-
-**4. Chainlink Faucet**
-- URL: https://faucets.chain.link/sepolia
-- Requires: GitHub/Twitter verification
-- Amount: 0.1 SepoliaETH per request
+**1. BNB Chain Testnet Faucet**
+- URL: https://www.bnbchain.org/en/testnet-faucet
+- Requires: BNB Chain account
+- Amount: 0.3 tBNB per day
 
 ### Using Faucets
 
@@ -91,7 +76,7 @@ RedCarpetHQ operates exclusively on the Ethereum Sepolia testnet. This guide cov
 
 ## Getting Test USDC
 
-### Sepolia USDC Faucet
+### BNB Chain Testnet USDC Faucet
 
 **Official Faucet:**
 - Available on RedCarpetHQ platform
@@ -100,8 +85,8 @@ RedCarpetHQ operates exclusively on the Ethereum Sepolia testnet. This guide cov
 - Request test USDC
 - Receive 1,000 USDC per request
 
-**USDC Contract Address:**
-- `0x[SEPOLIA_USDC_ADDRESS]` (check platform for current address)
+**USDC (test) Contract Address:**
+- `0xd991bF388cA02e60403896c6D1d81308C13d5459`
 
 **Adding USDC to Wallet:**
 1. Open MetaMask
@@ -123,7 +108,7 @@ RedCarpetHQ operates exclusively on the Ethereum Sepolia testnet. This guide cov
 - **HybridPriceOracle:** `0x[ADDRESS]`
 
 **Tokens:**
-- **USDC (Sepolia):** `0x[ADDRESS]`
+- **USDC (testnet):** `0xd991bF388cA02e60403896c6D1d81308C13d5459`
 
 > **Note:** Contract addresses are available on the platform and updated regularly. Check the platform for current addresses.
 
@@ -137,15 +122,15 @@ RedCarpetHQ operates exclusively on the Ethereum Sepolia testnet. This guide cov
 
 **Finding Addresses:**
 - View on campaign page
-- Check Sepolia Etherscan
+- Check BNB Chain Testnet Explorer
 - Query via API
 - Available in transaction history
 
 ## Block Explorer
 
-### Sepolia Etherscan
+### BNB Chain Testnet Explorer
 
-**URL:** https://sepolia.etherscan.io
+**URL:** https://testnet.bscscan.com
 
 **Features:**
 - Transaction history
@@ -165,7 +150,7 @@ RedCarpetHQ operates exclusively on the Ethereum Sepolia testnet. This guide cov
 
 **Check Your Transactions:**
 1. Copy transaction hash from wallet
-2. Paste into Sepolia Etherscan
+2. Paste into BNB Chain Testnet Explorer
 3. View transaction details
 4. Confirm status
 5. Check gas used
@@ -175,28 +160,10 @@ RedCarpetHQ operates exclusively on the Ethereum Sepolia testnet. This guide cov
 ### Public RPC Providers
 
 **Infura:**
-- URL: https://sepolia.infura.io/v3/YOUR-API-KEY
+- URL: https://bsc-testnet.infura.io/v3/YOUR-API-KEY
 - Free tier available
 - Reliable and fast
 - Sign up at infura.io
-
-**Alchemy:**
-- URL: https://eth-sepolia.g.alchemy.com/v2/YOUR-API-KEY
-- Free tier available
-- Enhanced features
-- Sign up at alchemy.com
-
-**QuickNode:**
-- URL: Available after signup
-- Free trial available
-- High performance
-- Sign up at quicknode.com
-
-**Public Endpoints:**
-- https://rpc.sepolia.org
-- https://rpc2.sepolia.org
-- Free but may be slower
-- No API key required
 
 ### Rate Limits
 
@@ -244,7 +211,7 @@ Cost (ETH) = Gas Used × Gas Price (Gwei) / 1,000,000,000
 ### Monitoring
 
 **Check Network Health:**
-- Sepolia Etherscan status page
+- BNB Chain Testnet Explorer status page
 - Etherscan gas tracker
 - RPC provider status pages
 - Community channels
@@ -275,12 +242,12 @@ Cost (ETH) = Gas Used × Gas Price (Gwei) / 1,000,000,000
 - Tenderly (debugging)
 - OpenZeppelin (contracts)
 
-**Sepolia Configuration:**
+**BNB Chain Testnet Configuration:**
 ```javascript
 // Hardhat config example
-sepolia: {
-  url: "https://sepolia.infura.io/v3/YOUR-API-KEY",
-  chainId: 11155111,
+bsc-testnet: {
+  url: "https://bsc-testnet.infura.io/v3/YOUR-API-KEY",
+  chainId: 97,
   accounts: [PRIVATE_KEY]
 }
 ```
@@ -306,8 +273,8 @@ sepolia: {
 **Q: Why use a testnet?**
 A: Testnets allow safe testing without real money at risk. Perfect for development and user testing.
 
-**Q: Can I use real money on Sepolia?**
-A: No, Sepolia uses test ETH and test USDC with no real value.
+**Q: Can I use real money on BNB Chain Testnet?**
+A: No, BNB Chain Testnet uses test ETH and test USDC with no real value.
 
 **Q: How do I get more test ETH?**
 A: Use the faucets listed above. Wait 24 hours between requests.
@@ -318,7 +285,7 @@ A: Request more from faucets or ask in community channels.
 **Q: Will my testnet tokens transfer to mainnet?**
 A: No, testnet and mainnet are completely separate. Testnet tokens have no value.
 
-**Q: Is Sepolia the same as Ethereum mainnet?**
+**Q: Is BNB Chain Testnet the same as BNB Chain mainnet?**
 A: Technically similar but separate network. Same tools and wallets work on both.
 
 **Q: How long will RedCarpetHQ stay on testnet?**

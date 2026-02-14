@@ -44,7 +44,7 @@ Launch campaigns that issue ERC20 tokens to backers. Each token represents a sta
 ## Platform Architecture
 
 ### Smart Contract Layer
-All operations are governed by battle-tested smart contracts on Ethereum Sepolia:
+All operations are governed by battle-tested smart contracts on BNB Chain Testnet:
 
 - **Campaign Contract**: Manages fundraising campaigns
 - **Market Contract**: Handles token trading
@@ -107,13 +107,13 @@ All campaign data, transactions, and token movements are recorded on-chain and p
 Ready to launch your film project on RedCarpetHQ?
 
 1. **[Understand Key Concepts](key-concepts.md)** - Learn platform terminology
-2. **[Set Up Your Wallet](wallet-setup.md)** - Configure MetaMask for Sepolia
+2. **[Set Up Your Wallet](wallet-setup.md)** - Configure MetaMask for BNB Chain Testnet
 3. **[Apply for Screening](screening-process.md)** - Get whitelisted as a producer
 4. **[Create Your Campaign](../campaigns/creating-campaigns.md)** - Launch your first campaign
 
 ## Platform Status
 
-- **Network**: Ethereum Sepolia Testnet
+- **Network**: BNB Chain Testnet
 - **Status**: Live (Testnet)
 - **Payment Token**: USDC (6 decimals)
 - **Supported Wallets**: MetaMask, WalletConnect

@@ -114,9 +114,9 @@ RedCarpetHQ is a Web3-powered movie crowdfunding platform that enables producers
 
 ## 🌐 Network Information
 
-- **Blockchain**: Ethereum Sepolia Testnet
+- **Blockchain**: BNB Chain Testnet
 - **Payment Token**: USDC (6 decimals)
-- **Block Explorer**: [Sepolia Etherscan](https://sepolia.etherscan.io/)
+- **Block Explorer**: [BNB Chain Testnet Etherscan](https://testnet.bscscan.com/)
 
 ## 📞 Need Help?
 

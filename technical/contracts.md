@@ -1,6 +1,6 @@
 # Smart Contracts Reference
 
-RedCarpetHQ is powered by battle-tested smart contracts on Ethereum Sepolia. This reference provides technical details for developers and advanced users.
+RedCarpetHQ is powered by battle-tested smart contracts on BNB Chain Testnet. This reference provides technical details for developers and advanced users.
 
 ## Contract Architecture
 
@@ -492,11 +492,11 @@ function claimMultipleDividends(
 | Liquidate | ~300,000 | $15 |
 | Claim Dividend | ~80,000 | $4 |
 
-*Estimates for Sepolia testnet. Mainnet may vary.*
+*Estimates for BNB Chain Testnet. Mainnet may vary.*
 
 ## Contract Addresses
 
-### Sepolia Testnet
+### BNB Chain Testnet
 
 ```
 Registry: [Address]
@@ -517,7 +517,7 @@ USDC (Test): [Address]
 
 ### Verification
 
-All contracts verified on Sepolia Etherscan:
+All contracts verified on BNB Chain Testnet Explorer:
 - View source code
 - Read contract state
 - Write contract functions
@@ -554,14 +554,14 @@ forge script script/DeployContracts.s.sol
 ```javascript
 // Web3.js
 const Web3 = require('web3');
-const web3 = new Web3('https://sepolia.infura.io/v3/YOUR_KEY');
+const web3 = new Web3('https://data-seed-prebsc-1-s1.binance.org:8545');
 
 const campaignABI = require('./abis/Campaign.json');
 const campaign = new web3.eth.Contract(campaignABI, CAMPAIGN_ADDRESS);
 
 // Ethers.js
 const { ethers } = require('ethers');
-const provider = new ethers.providers.JsonRpcProvider('https://sepolia.infura.io/v3/YOUR_KEY');
+const provider = new ethers.providers.JsonRpcProvider('https://data-seed-prebsc-1-s1.binance.org:8545');
 
 const campaignABI = require('./abis/Campaign.json');
 const campaign = new ethers.Contract(CAMPAIGN_ADDRESS, campaignABI, provider);
