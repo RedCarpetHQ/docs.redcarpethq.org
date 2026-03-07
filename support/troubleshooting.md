@@ -28,7 +28,7 @@ Common issues and solutions for RedCarpetHQ users.
    - Restart browser
 
 3. **Check Network**
-   - Switch to BNB Chain Testnet in MetaMask
+   - Switch to Base Sepolia in MetaMask
    - Verify RPC connection
    - Try different RPC endpoint
 
@@ -46,18 +46,18 @@ Common issues and solutions for RedCarpetHQ users.
 
 **Solutions:**
 
-1. **Switch to BNB Chain Testnet**
+1. **Switch to Base Sepolia**
    ```
-   MetaMask → Network dropdown → BNB Chain Testnet
+   MetaMask → Network dropdown → Base Sepolia
    ```
 
-2. **Add BNB Chain Testnet Manually**
+2. **Add Base Sepolia Manually**
    ```
-   Network Name: BNB Chain Testnet
-   RPC URL: https://data-seed-prebsc-1-s1.binance.org:8545
-   Chain ID: 11155111
+   Network Name: Base Sepolia
+   RPC URL: https://sepolia.base.org
+   Chain ID: 84532
    Currency: ETH
-   Explorer: https://testnet.bscscan.io
+   Explorer: https://sepolia.basescan.org/
    ```
 
 3. **Auto-Switch**
@@ -76,12 +76,12 @@ Common issues and solutions for RedCarpetHQ users.
 
 1. **Check Balances**
    ```
-   BNB Chain Testnet tBNB: For gas fees
+   Base Sepolia ETH: For gas fees
    USDC: For purchases/trades
    Tokens: For selling/collateral
    ```
 
-2. **Get BNB Chain Testnet tBNB**
+2. **Get Base Sepolia ETH**
    - Use faucets (see [Wallet Setup](../getting-started/wallet-setup.md))
    - Request from support
 
@@ -102,7 +102,7 @@ Common issues and solutions for RedCarpetHQ users.
 **Solutions:**
 
 1. **Check Network Status**
-   - Visit testnet.bscscan.io
+   - Visit sepolia.basescan.org
    - Check for network issues
    - Verify block production
 
@@ -216,8 +216,8 @@ Or: Wait for pending tx to clear
 
 2. **Verify Requirements**
    ```
-   ✓ Sufficient BNB Chain Testnet tBNB (~0.1)
-   ✓ Connected to BNB Chain Testnet network
+   ✓ Sufficient Base Sepolia ETH (~0.1)
+   ✓ Connected to Base Sepolia network
    ✓ All fields filled correctly
    ✓ Token symbol unique
    ✓ Dates valid (future times)
@@ -601,7 +601,7 @@ Check:
 
 2. **Check Blockchain**
    ```
-   Visit: testnet.bscscan.io
+   Visit: sepolia.basescan.org
    Enter: Your wallet address
    Verify: Actual balance
    ```

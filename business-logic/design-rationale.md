@@ -599,7 +599,7 @@ Fair distribution by contribution
 
 ### Testnet First
 
-**Why BNB Chain Testnet?**
+**Why Base Sepolia?**
 
 **Before Mainnet:**
 - ✅ Test all features

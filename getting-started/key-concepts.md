@@ -209,11 +209,11 @@ Some features have delays before activation:
 
 ## Network Concepts
 
-### BNB Chain Testnet
+### Base Sepolia
 Testnet blockchain where RedCarpetHQ operates:
 - **Block Time**: ~12 seconds
-- **Gas Token**: BNB Chain Testnet tBNB (free from faucets)
-- **Explorer**: testnet.bscscan.com
+- **Gas Token**: Base Sepolia ETH (free from faucets)
+- **Explorer**: https://sepolia.basescan.org/
 
 ### USDC (6 Decimals)
 Payment token for all transactions:
@@ -222,7 +222,7 @@ Payment token for all transactions:
 - Real USDC on mainnet deployment
 
 ### Gas Fees
-Transaction costs paid in BNB Chain Testnet tBNB:
+Transaction costs paid in ETH:
 - Campaign creation: ~500k gas
 - Token purchase: ~150k gas
 - Trading: ~200k gas

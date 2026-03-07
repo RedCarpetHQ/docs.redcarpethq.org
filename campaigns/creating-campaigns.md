@@ -6,8 +6,8 @@ This comprehensive guide walks you through creating your first campaign on RedCa
 
 Before creating a campaign:
 
-- ✅ **Wallet Setup**: MetaMask configured for BNB Chain Testnet ([Guide](../getting-started/wallet-setup.md))
-- ✅ **BNB Chain Testnet ETH**: At least 0.1 ETH for gas fees
+- ✅ **Wallet Setup**: MetaMask configured for Base Sepolia ([Guide](../getting-started/wallet-setup.md))
+- ✅ **Base Sepolia ETH**: At least 0.1 ETH for gas fees
 - ✅ **Test USDC**: For testing (if needed)
 - ✅ **Whitelist Status**: Approved by screener (if screening enabled)
 - ✅ **Project Details**: All information prepared
@@ -352,7 +352,7 @@ Before deployment, verify:
 #### Gas Estimation
 ```
 Estimated Gas: ~500,000 gas
-Cost: ~0.01-0.05 BNB Chain Testnet tBNB
+Cost: ~0.01-0.05 ETH
 ```
 
 #### Deploy Campaign
@@ -365,7 +365,7 @@ Cost: ~0.01-0.05 BNB Chain Testnet tBNB
 
 #### Transaction Confirmation
 - Transaction hash displayed
-- View on BNB Chain Testnet BSCscan
+- View on Base Sepolia BaseScan
 - Campaign contract address generated
 - Token contract address created
 

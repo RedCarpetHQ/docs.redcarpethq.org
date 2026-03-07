@@ -1,6 +1,6 @@
 # Wallet Setup
 
-To use RedCarpetHQ, you need a Web3 wallet configured for BNB Chain Testnet.
+To use RedCarpetHQ, you need a Web3 wallet configured for Base Sepolia.
 
 ## Supported Wallets
 
@@ -24,9 +24,9 @@ To use RedCarpetHQ, you need a Web3 wallet configured for BNB Chain Testnet.
 2. Open app and create/import wallet
 3. Secure your seed phrase (write it down!)
 
-### 2. Add BNB Chain Testnet Network
+### 2. Add Base Sepolia Network
 
-MetaMask may already have BNB Chain Testnet. If not, add manually:
+MetaMask may already have Base Sepolia Network. If not, add manually:
 
 **Automatic (Recommended)**
 1. Visit RedCarpetHQ platform
@@ -40,19 +40,19 @@ MetaMask may already have BNB Chain Testnet. If not, add manually:
 4. Enter details:
 
 ```
-Network Name: BNB Chain Testnet
-RPC URL: https://data-seed-prebsc-1-s1.binance.org:8545
-Chain ID: 97
-Currency Symbol: tBNB
-Block Explorer: https://testnet.bscscan.com
+Network Name: Base Sepolia
+RPC URL: https://sepolia.base.org
+Chain ID: 84532
+Currency Symbol: ETH
+Block Explorer: https://sepolia.basescan.org/
 ```
 
-### 3. Get BNB Chain Testnet tBNB (Gas)
+### 3. Get Base Sepolia ETH (Gas)
 
-You need BNB Chain Testnet tBNB to pay for transactions:
+You need Base Sepolia to pay for transactions:
 
 **Faucets (Free)**
-- [BNB Chain Testnet Faucet](https://testnet.binance.org/faucet)
+- [List of Faucets](https://docs.base.org/base-chain/tools/network-faucets#network-faucets)
 
 **Steps:**
 1. Copy your wallet address from MetaMask
@@ -60,7 +60,7 @@ You need BNB Chain Testnet tBNB to pay for transactions:
 3. Paste address and request ETH
 4. Wait 1-2 minutes for confirmation
 
-**Amount Needed:** 0.1-0.5 BNB Chain Testnet tBNB is sufficient for testing
+**Amount Needed:** 0.1-0.5 ETH is sufficient for testing
 
 ### 4. Get Test USDC
 
@@ -87,9 +87,9 @@ RedCarpetHQ uses USDC for all transactions:
    - Trust Wallet
    - Coinbase Wallet
 
-2. **Configure BNB Chain Testnet Network**
+2. **Configure Base Sepolia Network**
    - Follow wallet-specific instructions
-   - Add BNB Chain Testnet network details (see above)
+   - Add Base Sepolia network details (see above)
 
 3. **Connect to RedCarpetHQ**
    - Visit platform on mobile browser
@@ -171,10 +171,10 @@ Create separate accounts for different purposes:
 
 **MetaMask:**
 1. Click network dropdown (top)
-2. Select "BNB Chain Testnet" or other network
+2. Select "Base Sepolia" or other network
 3. Confirm switch
 
-**Important:** Always verify you're on BNB Chain Testnet before transactions!
+**Important:** Always verify you're on Base Sepolia before transactions!
 
 ### Viewing Tokens
 
@@ -192,10 +192,10 @@ Find on campaign page or in transaction details.
 
 ### "Insufficient Funds" Error
 
-**Cause:** Not enough BNB Chain Testnet tBNB for gas
+**Cause:** Not enough Base Sepolia ETH for gas
 
 **Solution:**
-1. Check BNB Chain Testnet tBNB balance in MetaMask
+1. Check Base Sepolia ETH balance in MetaMask
 2. Get more from faucet (see above)
 3. Wait for faucet transaction to confirm
 
@@ -205,7 +205,7 @@ Find on campaign page or in transaction details.
 
 **Solution:**
 1. Click network dropdown
-2. Switch to BNB Chain Testnet
+2. Switch to Base Sepolia
 3. Refresh page
 
 ### Transaction Stuck
@@ -237,7 +237,7 @@ Find on campaign page or in transaction details.
 **Solution:**
 1. Import token manually (see above)
 2. Or wait - some wallets auto-detect
-3. Check on BNB Chain Testnet BSCscan to verify balance
+3. Check on Base Sepolia BaseScan to verify balance
 
 ## Testing Your Setup
 
