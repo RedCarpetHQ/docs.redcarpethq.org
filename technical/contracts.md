@@ -107,7 +107,7 @@ RedCarpetHQ is powered by battle-tested smart contracts on Base Sepolia. This re
 - `EpochFinalized`: Epoch ended
 - `RewardClaimed`: Reward paid
 
-#### RiskOracleV3
+#### RiskOracle
 **Purpose**: Real-time risk assessment for all tokens
 
 **Address**: `[Deployed Address]`
@@ -164,7 +164,7 @@ RedCarpetHQ is powered by battle-tested smart contracts on Base Sepolia. This re
 
 ### Per-Token Contracts
 
-#### UnifiedVaultV3 (ERC4626)
+#### UnifiedVault (ERC4626)
 **Purpose**: Single vault per token - lending, stability, insurance
 
 **Deployment**: One per graduated token
@@ -396,7 +396,7 @@ Event: DividendClaimed
 - Campaign: Platform owner
 - Market: Platform owner
 - FeeDistributor: Platform owner
-- RiskOracleV3: Platform owner
+- RiskOracle: Platform owner
 
 **Role-Based:**
 - Screeners: Can whitelist creators
@@ -504,7 +504,7 @@ Campaign: [Address]
 Market: [Address]
 FeeDistributor: [Address]
 Contest: [Address]
-RiskOracleV3: [Address]
+RiskOracle: [Address]
 HybridPriceOracle: [Address]
 OptimisticPriceOracle: [Address]
 DividendDistributor: [Address]
@@ -574,7 +574,7 @@ const campaign = new ethers.Contract(CAMPAIGN_ADDRESS, campaignABI, provider);
 All core contracts are **immutable** (not upgradable):
 - Campaign
 - Market
-- UnifiedVaultV3
+- UnifiedVault
 - MinimumERC20
 
 **Why?**

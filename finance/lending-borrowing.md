@@ -3,7 +3,7 @@
 For detailed information about lending and borrowing on RedCarpetHQ, please see:
 
 - [Finance Overview](finance/overview.md) - Complete guide to DeFi features
-- [UnifiedVaultV3 Architecture](finance/overview.md#unifiedvaultv3-architecture)
+- [UnifiedVault Architecture](finance/overview.md#unifiedvaultv3-architecture)
 - [Lending Guide](finance/overview.md#for-lenders)
 - [Borrowing Guide](finance/overview.md#for-borrowers)
 

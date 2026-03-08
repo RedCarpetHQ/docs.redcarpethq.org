@@ -238,7 +238,7 @@ RED Tier:
 - Historical tier data
 
 **On-Chain:**
-- Query RiskOracleV3 contract
+- Query RiskOracle contract
 - View tier history
 - Check assessment factors
 - Verify calculations
@@ -302,27 +302,30 @@ RED Tier:
 
 ## Technical Implementation
 
-### RiskOracleV3 Contract
+### RiskOracle Contract
 
 ```solidity
 // Simplified risk assessment
-contract RiskOracleV3 {
-    enum RiskTier { GREEN, YELLOW, RED }
+contract RiskOracle {
+    // Risk tiers defined as integers
+    uint8 public constant TIER_GREEN = 0;
+    uint8 public constant TIER_YELLOW = 1;
+    uint8 public constant TIER_RED = 2;
     
-    function assessRisk(address token) 
-        external view returns (RiskTier) {
+    function getRiskTier(address token) 
+        external view returns (uint8) {
         // Check price staleness
         // Check vault utilization
         // Check wash trading
         // Check market health
-        // Return tier
+        // Return tier (0, 1, or 2)
     }
     
     function getCollateralFactor(address token)
         external view returns (uint256) {
-        RiskTier tier = assessRisk(token);
-        if (tier == RiskTier.GREEN) return 75;
-        if (tier == RiskTier.YELLOW) return 60;
+        uint8 tier = getRiskTier(token);
+        if (tier == TIER_GREEN) return 75;
+        if (tier == TIER_YELLOW) return 60;
         return 40; // RED
     }
 }
@@ -331,7 +334,7 @@ contract RiskOracleV3 {
 ### Integration Points
 
 **Connected contracts:**
-- UnifiedVaultV3 (collateral factors)
+- UnifiedVault (collateral factors)
 - HybridPriceOracle (price staleness)
 - Market (wash trading detection)
 - Contest (volume validation)
@@ -369,7 +372,7 @@ A: Your existing loan terms don't change, but your max LTV adjusts. You may need
 A: Yes, historical tier data is available on token pages and on-chain.
 
 **Q: Who decides the risk tier?**
-A: The RiskOracleV3 smart contract automatically assesses tiers based on objective criteria.
+A: The RiskOracle smart contract automatically assesses tiers based on objective criteria.
 
 **Q: Can producers manipulate their token's tier?**
 A: They can try to improve it through legitimate trading activity, but manipulation is detected and penalized.

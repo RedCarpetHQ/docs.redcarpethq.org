@@ -57,7 +57,7 @@ When a campaign succeeds and is finalized, the token "graduates" to full platfor
 
 ## DeFi Concepts
 
-### UnifiedVaultV3 (ERC4626)
+### UnifiedVault (ERC4626)
 Each graduated token has its own lending vault where users can:
 - **Deposit USDC**: Earn interest from borrowers
 - **Withdraw USDC**: Redeem shares for underlying assets

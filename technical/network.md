@@ -102,7 +102,7 @@ RedCarpetHQ operates exclusively on the Base Sepolia. This guide covers network 
 
 **Core Protocol:**
 - **FeeDistributor:** `0x[ADDRESS]`
-- **RiskOracleV3:** `0x[ADDRESS]`
+- **RiskOracle:** `0x[ADDRESS]`
 - **Market:** `0x[ADDRESS]`
 - **Contest:** `0x[ADDRESS]`
 - **HybridPriceOracle:** `0x[ADDRESS]`
@@ -117,7 +117,7 @@ RedCarpetHQ operates exclusively on the Base Sepolia. This guide covers network 
 **Each campaign deploys:**
 - Campaign contract
 - CampaignToken (ERC-20)
-- UnifiedVaultV3
+- UnifiedVault
 - DividendDistributor
 
 **Finding Addresses:**

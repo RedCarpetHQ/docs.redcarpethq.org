@@ -157,7 +157,7 @@ Result:
 
 ## DeFi Architecture
 
-### ERC4626 Vaults (UnifiedVaultV3)
+### ERC4626 Vaults (UnifiedVault)
 
 **Why ERC4626 Standard?**
 
@@ -577,7 +577,7 @@ Fair distribution by contribution
 
 ## Platform Evolution
 
-### Why V3 Architecture?
+### Why Unified Architecture?
 
 **V1/V2 Problems:**
 - Too many contracts (5 per token)
@@ -585,8 +585,8 @@ Fair distribution by contribution
 - Gas inefficient
 - Hard to maintain
 
-**V3 Improvements:**
-- 1 contract per token (UnifiedVaultV3)
+**Architecture Improvements:**
+- 1 contract per token (UnifiedVault)
 - Central FeeDistributor
 - Native ERC4626
 - Simplified logic

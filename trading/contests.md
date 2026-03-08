@@ -9,7 +9,7 @@ RedCarpetHQ runs epoch-based trading contests that reward active traders with a 
 ### Epoch System
 
 **Contest Periods:**
-- Typically 7-day epochs
+- Typically 7-day epochs (currently set to 5 minutes on Base Sepolia testnet)
 - Start/end times announced
 - Automatic rollover to next epoch
 - Continuous participation
@@ -203,7 +203,8 @@ Trading Fees = Buy Volume × 2.5%
 
 ### Standard Contests
 
-**Regular 7-day epochs:**
+**Regular epochs:**
+- Regular 7-day periods (currently 5 minutes on testnet)
 - Consistent rules
 - Predictable timing
 - Standard reward pool
@@ -245,20 +246,23 @@ Trading Fees = Buy Volume × 2.5%
 **Key Functions:**
 ```solidity
 // Track buy volume
-function recordBuyVolume(
+function addBuyVolume(
+    address token,
     address trader,
-    uint256 volume
+    uint128 volume
 ) external;
 
 // Claim rewards
-function claimRewards(
-    uint256 epochId
+function claim(
+    address token,
+    uint32 epoch
 ) external;
 
 // View rewards
-function getRewards(
+function getClaimableAmount(
+    address token,
     address trader,
-    uint256 epochId
+    uint32 epoch
 ) external view returns (uint256);
 ```
 

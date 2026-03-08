@@ -48,7 +48,7 @@ All operations are governed by battle-tested smart contracts on Base Sepolia:
 
 - **Campaign Contract**: Manages fundraising campaigns
 - **Market Contract**: Handles token trading
-- **UnifiedVaultV3**: ERC4626 lending pools per token
+- **UnifiedVault**: ERC4626 lending pools per token
 - **FeeDistributor**: Distributes protocol fees
 - **Contest Contract**: Trading competition rewards
 - **DividendDistributor**: Revenue sharing system

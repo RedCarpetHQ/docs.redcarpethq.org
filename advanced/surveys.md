@@ -24,7 +24,7 @@ Surveys and governance mechanisms will allow producers to gather feedback from t
 
 **Community-driven decisions:**
 - Token holders propose changes
-- Voting period
+- Voting period (currently 30 minutes on testnet)
 - Quorum requirements
 - Execution if passed
 

@@ -11,9 +11,10 @@ The FeeDistributor is the central hub for all protocol fees, implementing a fixe
 **1. Trading Fees (Market Contract)**
 - 2.5% of every trade
 - Collected on token trades
+- **Note:** Minimum trade size is 1 USDC (`MIN_TRADE_SIZE = 1e6`) to prevent dust spam.
 - Largest fee source
 
-**2. Interest Income (UnifiedVaultV3)**
+**2. Interest Income (UnifiedVault)**
 - Protocol's share of interest
 - Risk-tiered percentages
 - From borrower payments
@@ -150,7 +151,7 @@ Total: $75 fees → $7.50 claimable
 
 **Via Contract:**
 ```solidity
-FeeDistributor.claimProducerReward(tokenAddress)
+UnifiedVault.claimProducerReward(tokenAddress)
 ```
 
 **Example:**
@@ -161,6 +162,7 @@ Gas Cost: ~80,000 gas
 
 Transaction:
 - Function: claimProducerReward()
+- Contract: UnifiedVault (Token specific)
 - Result: $250 USDC to your wallet
 - Event: ProducerRewardClaimed
 ```
@@ -213,7 +215,7 @@ Epoch | Fees | Your Share | Status
 
 ## Interest Income Distribution
 
-### From UnifiedVaultV3
+### From UnifiedVault
 
 **Interest Split (Risk-Tiered):**
 

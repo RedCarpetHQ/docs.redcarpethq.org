@@ -114,19 +114,19 @@ Action Required:
 ### Understanding Risk Tiers
 
 **GREEN (Low Risk):**
-- Recent price updates
+- Recent price updates (< 15 mins on testnet)
 - Healthy trading volume
 - Low vault utilization
 - Stable market
 
 **YELLOW (Medium Risk):**
-- Moderate price staleness
+- Moderate price staleness (1-3 days on testnet)
 - Moderate trading volume
 - Medium vault utilization
 - Some volatility
 
 **RED (High Risk):**
-- Stale prices
+- Stale prices (> 3 days on testnet)
 - Low/no trading volume
 - High vault utilization
 - High volatility

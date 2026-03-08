@@ -7,7 +7,7 @@ For comprehensive information about RedCarpetHQ's DeFi architecture, please see:
 
 ## Architecture Overview
 
-### UnifiedVaultV3
+### UnifiedVault
 
 **Single ERC-4626 vault per token:**
 - Simplified UX
@@ -23,7 +23,7 @@ For comprehensive information about RedCarpetHQ's DeFi architecture, please see:
 - 10% Vault (lenders)
 - 10% Producer rewards
 
-### RiskOracleV3
+### RiskOracle
 
 **Risk assessment system:**
 - GREEN/YELLOW/RED tiers
@@ -34,9 +34,9 @@ For comprehensive information about RedCarpetHQ's DeFi architecture, please see:
 ### Key Contracts
 
 **Global Contracts:**
-- UnifiedVaultV3 (per token)
+- UnifiedVault (per token)
 - FeeDistributor
-- RiskOracleV3
+- RiskOracle
 - Market
 - Contest
 

@@ -70,10 +70,10 @@ VWAP = Σ(Price × Volume) / Σ(Volume)
 - Impacts collateral factors
 
 **Staleness Thresholds:**
-- Fresh: < 24 hours
-- Moderate: 24-72 hours
-- Stale: > 72 hours
-- Very stale: > 7 days
+- Fresh: < 15 minutes (Testnet parameters)
+- Moderate: 1 - 3 days
+- Stale: > 3 days
+- Very stale: > 7 days (Testnet cap)
 
 **Impact:**
 - Stale prices increase risk tier
@@ -85,7 +85,7 @@ VWAP = Σ(Price × Volume) / Σ(Volume)
 
 ### Tier Determination
 
-The RiskOracleV3 assesses tokens into risk tiers:
+The RiskOracle assesses tokens into risk tiers:
 
 **GREEN (Low Risk):**
 - Recent price updates (< 24h)
@@ -95,14 +95,14 @@ The RiskOracleV3 assesses tokens into risk tiers:
 - Stable price action
 
 **YELLOW (Medium Risk):**
-- Moderate price staleness (24-72h)
+- Moderate price staleness (1-3 days on testnet)
 - Moderate trading volume
 - Medium vault utilization
 - Some volatility
 - Minor concerns
 
 **RED (High Risk):**
-- Stale prices (> 72h)
+- Stale prices (> 3 days on testnet)
 - Low/no trading volume
 - High vault utilization
 - Wash trading suspected
@@ -275,11 +275,11 @@ contract HybridPriceOracle {
         bool isStale;
     }
     
-    // Update VWAP on each trade
-    function updateVWAP(
-        address token,
-        uint256 price,
-        uint256 volume
+    // Update VWAP externally triggered via trade
+    function updatePrice(
+        address asset,
+        uint256 priceWad,
+        uint256 volumeWad
     ) external;
     
     // Get current price

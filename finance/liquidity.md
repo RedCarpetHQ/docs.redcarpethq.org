@@ -2,7 +2,7 @@
 
 ## Overview
 
-Liquidity provision on RedCarpetHQ is handled through the UnifiedVaultV3 system, which automatically allocates deposits across multiple pools to optimize returns and security.
+Liquidity provision on RedCarpetHQ is handled through the UnifiedVault system, which automatically allocates deposits across multiple pools to optimize returns and security.
 
 ## How It Works
 
@@ -81,9 +81,10 @@ Higher risk = higher returns to compensate
 
 **Subject to utilization:**
 - Can withdraw unused liquidity anytime
+- 5 minute minimum deposit duration (on Base Sepolia testnet)
 - If 100% utilized, must wait for repayments
 - Partial withdrawals always possible
-- No lock-up periods
+- No long lock-up periods
 
 **Example:**
 - Total deposits: $100,000

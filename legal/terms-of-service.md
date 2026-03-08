@@ -81,7 +81,7 @@ RedCarpetHQ is not a part of this contract—the contract is a direct agreement 
 3. **Campaign Success and Graduation.** A campaign is considered successful if it reaches its floor funding goal by the deadline. Upon success:
    - The producer receives the raised funds (in USDC) to their designated wallet
    - Campaign tokens become tradable on the marketplace
-   - The UnifiedVaultV3 is deployed for DeFi functionality
+   - The UnifiedVault is deployed for DeFi functionality
    - Supporters can trade, lend, or hold their tokens
    - The producer may distribute dividends to token holders
 
@@ -140,7 +140,7 @@ RedCarpetHQ provides marketplace and DeFi services for graduated campaign tokens
 - You are responsible for verifying offer details before executing trades
 - Price manipulation and wash trading are prohibited
 
-**UnifiedVaultV3 (Lending and Borrowing):**
+**UnifiedVault (Lending and Borrowing):**
 - Deposits are split 80% to lending pool, 20% to stability pool
 - Interest rates are variable and based on utilization and risk tier
 - Collateral can be liquidated if your position becomes undercollateralized
@@ -155,7 +155,7 @@ RedCarpetHQ provides marketplace and DeFi services for graduated campaign tokens
 - First claimer receives a 1% bounty
 
 **Risk Tiers:**
-- Tokens are assigned risk tiers (GREEN, YELLOW, RED) by the RiskOracleV3
+- Tokens are assigned risk tiers (GREEN, YELLOW, RED) by the RiskOracle
 - Risk tiers affect collateral factors, interest rates, and liquidation thresholds
 - Risk tiers can change based on market conditions
 - You are responsible for understanding the risks associated with each tier

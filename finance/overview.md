@@ -50,7 +50,7 @@ RedCarpetHQ integrates DeFi (Decentralized Finance) features that allow producer
 - Automatic distribution
 - Long-term alignment
 
-## UnifiedVaultV3 Architecture
+## UnifiedVault Architecture
 
 Each graduated token has its own ERC4626-compliant vault.
 
@@ -58,7 +58,7 @@ Each graduated token has its own ERC4626-compliant vault.
 
 ```
 ┌─────────────────────────────────────┐
-│       UnifiedVaultV3 (Token X)      │
+│       UnifiedVault (Token X)      │
 ├─────────────────────────────────────┤
 │                                     │
 │  Total USDC: $100,000               │
@@ -131,7 +131,7 @@ Interest earned from borrowers is split based on risk tier:
 
 ## Risk Tiers
 
-The RiskOracleV3 assesses each token's risk level continuously.
+The RiskOracle assesses each token's risk level continuously.
 
 ### Tier Definitions
 
