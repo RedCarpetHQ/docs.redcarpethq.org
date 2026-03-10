@@ -1,0 +1,176 @@
+# RedCarpetHQ — Complete Platform Reference (llms.txt)
+
+This document is a **complete, self-contained technical reference** for the RedCarpetHQ platform, intended for AI agents and LLMs. It consolidates all documentation so that agents do not need to refer to any other files. All business logic, technical specifications, parameters, workflows, and Q&A are included here.
+
+---
+
+## 1. PLATFORM OVERVIEW
+
+**RedCarpetHQ** is a decentralized film financing platform operating exclusively on **Base Sepolia**. It bridges traditional movie crowdfunding with Web3 and DeFi technology. Producers (Creators) raise capital through tokenized campaigns; supporters receive tradable ERC-20 tokens that grant access to secondary markets, collateralized lending, and dividend distributions from film revenue.
+
+### Core Philosophy: All-or-Nothing
+We utilize an **all-or-nothing** funding model to protect both film creators and supporters. 
+- **Producers** are ensured the minimum budget (Floor) required to deliver on their creative promises without the risk of starting a project underfunded.
+- **Supporters** are protected because their USDC is only committed to projects that reach their critical funding milestone.
+- **Urgency & Community**: The "Floor" creates a rally point for early backers to become community stakeholders.
+
+### Key Features
+- **Tokenized Fundraising**: Each campaign mints its own ERC-20 token. 1 USDC = 1 token (1:1 ratio).
+- **Floor & Ceiling**: Campaigns must reach a "Floor" to succeed. An optional "Ceiling" caps the maximum raise.
+- **DeFi Integration**: Each graduated token receives a **UnifiedVaultV3** (ERC-4626) enabling USDC lending and borrowing.
+- **Escrow Marketplace**: Peer-to-peer token trading with a 2.5% fee distributed to the ecosystem.
+- **Trading Contests**: 6-hour epochs rewarding buy-side volume with 40% of collected trading fees.
+- **Dividends**: Producers distribute USDC revenue to holders via snapshot-based distributions.
+- **Risk Oracle**: RiskOracleV3 assesses tokens into 🟢 GREEN, 🟡 YELLOW, and 🔴 RED tiers.
+
+### Network Information (Base Sepolia)
+- **Network Name**: Base Sepolia
+- **Chain ID**: 84532
+- **Currency Symbol**: ETH (Gas)
+- **RPC URL**: `https://sepolia.base.org`
+- **Block Explorer**: `https://sepolia.basescan.org/`
+- **Test USDC Contract**: `0x16e41b7137b281c35f305140ccfb2863865ea627` (6 decimals)
+- **Test USDC Faucet**: Available on the RedCarpetHQ platform (1,000 USDC per request).
+
+---
+
+## 2. GLOSSARY & KEY CONCEPTS
+
+| Term | Definition |
+|------|------------|
+| **Floor** | Minimum funding target. Campaign fails if not reached by the deadline. |
+| **Ceiling** | Maximum funding accepted. Campaign auto-concludes if reached. |
+| **Graduation** | The transition of a successful campaign into a full DeFi-enabled token ecosystem. |
+| **UnifiedVaultV3** | Single contract vault (ERC-4626) per token for lending, stability, and insurance. |
+| **80/20 Split** | Vault deposit allocation: 80% to Lending Pool, 20% to Stability Pool. |
+| **VWAP** | Volume-Weighted Average Price, used by the oracle for fair liquidation pricing. |
+| **Risk Tier** | 0=GREEN (Low), 1=YELLOW (Medium), 2=RED (High). Determines DeFi parameters. |
+| **Circuit Breaker** | Auto-pause if bad debt > $10k, utilization > 99%, or price stale > 12h. |
+| **Grace Period** | 24-hour window after deadline to extend or finalize a failed campaign. |
+| **Finalize Grace** | 2-week window for producers to claim funds before public finalization is allowed. |
+
+---
+
+## 3. CAMPAIGN LIFECYCLE
+
+### 3.1 States
+1.  **Pending**: Created, awaiting start time. Creator can edit all parameters (Floor, Dates, Recipient).
+2.  **Active**: Accepting USDC. 1 USDC = 1 token minted to user. Creator can extend once.
+3.  **Success**: Floor reached. Funds locked. Awaiting finalization (up to 2 weeks for producer).
+4.  **Graduated**: Finalized. Funds released to producer. Supply locked. DeFi features enabled.
+5.  **Failed**: Deadline passed without reaching Floor. Immediate 100% USDC refunds for all.
+6.  **Cancelled**: Manually stopped by Producer or Screener. Immediate 100% USDC refunds.
+
+### 3.2 Time Constraints
+- **Maximum Duration**: 270 days total (including extensions).
+- **Extension**: 1 extension allowed (default), must be used within 24h grace period.
+- **Finalization**: Producer has 2 weeks to "Claim Funds" and graduate. After that, anyone can finalize the campaign to prevent limbo.
+
+### 3.3 All-or-Nothing Rules
+- **No Pausing**: Campaigns cannot be paused on-chain.
+- **Cancellations**: Producers can cancel and relaunch if a "reset" is needed. No platform penalty for relaunching.
+- **Honest Presentation**: Producers must communicate delays or shifts in production via Project Updates.
+
+---
+
+## 4. DEFI ARCHITECTURE (UnifiedVaultV3)
+
+### 4.1 Vault Allocation
+When a user deposits USDC into a token's vault:
+- **80% → Lending Pool**: Earns interest from borrowers.
+- **20% → Stability Pool**: Used for instant auto-liquidations.
+
+### 4.2 Risk Tiers & Parameters
+Parameters scale based on objective risk assessments (staleness, wash trading, utilization).
+
+| Tier | Collateral Factor (CF) | Liquidation Threshold (LT) | Safety Buffer |
+|------|------------------------|---------------------------|---------------|
+| 🟢 GREEN | 50% | 60% | 10% |
+| 🟡 YELLOW | 40% | 50% | 10% |
+| 🔴 RED | 30% | 40% | 10% |
+
+### 4.3 Jump Rate Interest Model
+Interest rates scale with utilization to ensure liquidity:
+- **0–70% (Optimal)**: Gradual rate increase (e.g., 2% to 12% APY).
+- **70–85% (High)**: Sharp jump (e.g., 12% to 35% APY).
+- **>85% (Cap)**: Borrowing disabled to ensure 15% withdrawal liquidity.
+
+---
+
+## 5. FEE DISTRIBUTION (40/40/10/10)
+
+All collected fees (2.5% trading fee + protocol interest share) are routed via the **FeeDistributor**:
+- **40% → Protocol Treasury**: Infrastructure and development.
+- **40% → Trading Contests**: Prize pool for active traders.
+- **10% → UnifiedVault**: Protocol's vault allocation (compounding returns).
+- **10% → Producer Rewards**: Passive income claimable by the film's creator.
+
+### Producer Exit Strategy
+Producers can exit their position without dumping tokens on the market:
+- **Burn for Vault Shares**: Producer burns their tokens to claim the protocol's 10% vault allocation.
+- **Requirement**: $10 minimum threshold, 25% exit fee applies.
+
+---
+
+## 6. TRADING & CONTESTS
+
+### 6.1 Marketplace
+- **Escrow-Based**: Peers create Buy/Sell offers. Funds are locked in the `Market` contract.
+- **No Order Book/AMM**: Simple, gas-efficient, and front-running resistant.
+- **Fee**: 2.5% charged on fills.
+
+### 6.2 Trading Contests
+- **Epochs**: 6 hours (4 per day).
+- **Eligibility**: Minimum **15,000 USDC** buy volume per epoch.
+- **Rewards**: Pro-rata share of the 40% fee pool.
+- **Bounty**: 1% bounty to the first person to claim rewards for an epoch.
+
+---
+
+## 7. REVENUE & DIVIDENDS
+
+Producers distribute real-world film revenue (streaming, box office) via **DividendDistributor**:
+1.  **Create Round**: Producer deposits USDC.
+2.  **Snapshot**: A block-level record of all token holders (including vault depositors).
+3.  **Activate**: Pro-rata claims are enabled for everyone held at the snapshot.
+4.  **Claim**: Holders claim USDC directly from the contract. No expiration.
+
+---
+
+## 8. SMART CONTRACTS (CORE ADDRESSES)
+
+| Contract | Purpose |
+|----------|---------|
+| **Registry** | Central system config and graduated token list. |
+| **Campaign** | Fundraising and all-or-nothing logic. |
+| **Market** | Peer-to-peer trading. |
+| **FeeDistributor** | Ecosystem revenue sharing. |
+| **Contest** | Trading volume tracking and rewards. |
+| **RiskOracle** | Real-time risk tier assessment. |
+| **HybridPriceOracle**| VWAP price feeds and staleness tracking. |
+| **DividendDistributor**| Revenue distribution. |
+
+---
+
+## 9. USER GUIDELINES
+
+### Creative Labor & Salary
+RedCarpetHQ believes in sustainable filmmaking.
+- **Salaries are Allowed**: Producers should factor their own and their crew's fair wages into the budget.
+- **Original Content Only**: Campaigns must produce creative work in film/movies/entertainment.
+- **Nonprofits**: Charities can run campaigns to fund creative milestones.
+
+### Security Best Practices
+- **Base Sepolia Explorer**: Verify all transactions at `https://sepolia.basescan.org/`.
+- **LTV Management**: Keep borrowing LTV well below the Liquidation Threshold (recommend <50% for GREEN).
+- **Hardware Wallets**: Recommended for significant producers or large holders.
+
+---
+
+## 10. SUPPORT & COMPLIANCE
+- **Support**: `support@redcarpethq.org`
+- **Screening**: `screening@redcarpethq.org` (Whitelisting required if screening is enabled).
+- **Legal**: All campaigns must adhere to the Copyright, Privacy, and Terms of Service policies.
+
+---
+*Updated: 2026-03-10 | Status: Base Sepolia Live*
