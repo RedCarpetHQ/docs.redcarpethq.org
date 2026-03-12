@@ -11,6 +11,7 @@
   - [Managing Campaigns](campaigns/managing-campaigns.md)
   - [Campaign Extensions](campaigns/extensions.md)
   - [Cancellations & Refunds](campaigns/cancellations.md)
+  - [Multi-Round Campaign](campaigns/multiround-campaigns.md)
 
 - **Tokenomics**
   - [Token Basics](tokenomics/token-basics.md)
