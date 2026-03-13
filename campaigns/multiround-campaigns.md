@@ -54,7 +54,7 @@ Total Potential: $425,000 across 5 rounds
 
 **After Round 1 Ends:**
 - **If Successful**: Collect funds, create Round 2 (or finalize)
-- **If Failed**: Users get refunds for Round 1, can create Round 2 after cooldown
+- **If Failed**: Users get refunds for Round 1. **Note**: Current protocol logic requires at least one successful round to continue. If Round 1 fails, the campaign must be restarted as a new campaign address.
 
 **Continuing Rounds:**
 - Create rounds 2-5 sequentially after previous round ends
@@ -127,13 +127,13 @@ Round 3: Floor must be ≥ 50% of Round 2's floor
 - Cancel the active round if it's not going well
 - Users get refunds for that round only
 - Previous successful rounds keep their tokens
-- Can create next round after cooldown
+- **Restriction**: You can only cancel if you have **NOT** collected any funds yet.
 
 **Cancel All Rounds:**
-- Cancel entire campaign at any time
+- Cancel entire campaign at any time **BEFORE collecting funds**
 - All uncollected rounds become refundable
-- **Collected rounds are NOT refundable** (funds already released)
-- Campaign marked as finalized (cannot continue)
+- **Important**: Once you call `collectRoundFunds()` or `collectAllFunds()`, the campaign is locked into the finalization path and **CANNOT be cancelled**.
+- Campaign marked as finalized after successful rounds conclude (cannot continue)
 
 ### ✅ Finalization Control
 
@@ -264,11 +264,12 @@ Feb 12:  Create Round 2 ($75k floor)
 Feb 13:  Round 2 starts (60 days)
 Apr 14:  Round 2 ends - FAILED ($45k raised, below floor)
 Apr 28:  Create Round 3 (after 14-day cooldown)
-         Floor must be ≥ $30k (50% of Round 1)
+         Floor must be ≥ $30k (50% of Round 1 success)
 Apr 29:  Round 3 starts (45 days)
 Jun 13:  Round 3 ends - SUCCESS ($50k raised)
 Jun 20:  Finalize campaign
 ```
+*Note: Round 2 failure did not end the campaign because Round 1 was successful.*
 
 ## Financial Management
 
@@ -347,15 +348,15 @@ Result: SUCCESSFUL CAMPAIGN
 - At least 1 successful round exists
 - Current round has ended
 - One of these conditions is met:
-  - 7+ days since last round ended
-  - All 5 rounds created (max reached)
-  - 548 days since campaign start (duration limit)
+  - 7+ days since last round ended (Minimum gap)
+  - All 5 rounds created (Max reached)
+  - 548 days since campaign start (Duration limit)
 
 **Public Can Finalize When:**
-- 30 days after last fund collection (creator grace period)
-- OR 90 days after last round ended
+- 30 days after last round ended (Creator grace period)
+- OR 90 days after last fund collection
 - OR 548 days since campaign start
-- Public finalizer receives 100 USDC reward
+- Public finalizer receives **100 USDC reward** (if available in payment tokens)
 
 ### Market Launch
 
@@ -428,7 +429,7 @@ A: No. You can finalize after any successful round. Many campaigns use 2-3 round
 A: Yes. You decide after each round whether to continue or finalize.
 
 **Q: What if Round 2 fails but Round 1 succeeded?**  
-A: You can create Round 3 after a 14-day cooldown. Round 1 supporters keep their tokens, Round 2 supporters get refunds.
+A: You can create Round 3 after a 14-day cooldown. Round 1 supporters keep their tokens, Round 2 supporters get refunds. Note that at least one successful round must exist to continue the campaign.
 
 **Q: Can I edit a round after creating it?**  
 A: No. Round parameters are immutable. You must cancel and recreate with correct parameters.
