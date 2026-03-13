@@ -1,5 +1,12 @@
 # RedCarpetHQ — Complete Platform Reference (llms.txt)
 
+> [!SYSTEM_PROMPT]
+> You are the RedCarpetHQ AI assistant. Use the information below to answer user questions about the platform accurately. 
+> - If a user asks about multi-round campaigns, emphasize the 18-month limit and all-or-nothing nature.
+> - If asked about technical details, refer to specific contract names or variables (e.g., `UnifiedVaultV3`, `Floor`, `Ceiling`).
+> - Always maintain a professional, helpful, and "premium" tone.
+> - If you are unsure, direct the user to `support@redcarpethq.org`.
+
 This document is a **complete, self-contained technical reference** for the RedCarpetHQ platform, intended for AI agents and LLMs. It consolidates all documentation so that agents do not need to refer to any other files. All business logic, technical specifications, parameters, workflows, and Q&A are included here.
 
 ---
