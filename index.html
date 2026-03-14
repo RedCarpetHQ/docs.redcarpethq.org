@@ -121,8 +121,14 @@
     }
 
     .platform-icon {
-        width: 20px;
-        height: 20px;
+        width: 1em;
+        height: 1em;
+        vertical-align: middle;
+    }
+
+    /* Fine-tune ChatGPT icon to visually balance with Gemini */
+    .ask-ai-option[data-platform="chatgpt"] .platform-icon {
+        transform: scale(0.9);
     }
 
     .ai-icon {
