@@ -36,7 +36,8 @@
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
 
-    gtag('config', 'G-69YFYPVYH0');
+    // send_page_view: false prevents duplicate — doneEach plugin handles ALL page views
+    gtag('config', 'G-69YFYPVYH0', { send_page_view: false });
     </script>
     
     <style>
