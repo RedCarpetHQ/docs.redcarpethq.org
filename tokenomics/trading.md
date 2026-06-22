@@ -13,7 +13,7 @@ Before you can trade, you need:
 ✅ **Web3 Wallet** - MetaMask or WalletConnect compatible  
 ✅ **Campaign Tokens** - From graduated campaigns  
 ✅ **USDC** - To buy tokens or pay fees  
-✅ **ETH** - For gas fees on Base Sepolia
+✅ **ETH** - For gas fees
 
 ### When Can You Trade?
 

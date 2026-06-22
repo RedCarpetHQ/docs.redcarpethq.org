@@ -81,7 +81,7 @@ Higher risk = higher returns to compensate
 
 **Subject to utilization:**
 - Can withdraw unused liquidity anytime
-- 5 minute minimum deposit duration (on Base Sepolia testnet)
+- Minimum deposit duration may apply during testing phases
 - If 100% utilized, must wait for repayments
 - Partial withdrawals always possible
 - No long lock-up periods

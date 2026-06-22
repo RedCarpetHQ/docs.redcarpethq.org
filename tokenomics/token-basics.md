@@ -150,7 +150,7 @@ All campaign tokens follow the ERC-20 standard:
 
 ### On Block Explorers
 
-**Base Sepolia Explorer:**
+**Block Explorer:**
 - View all token holders
 - See transaction history
 - Check total supply

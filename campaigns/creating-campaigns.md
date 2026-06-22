@@ -6,9 +6,9 @@ This comprehensive guide walks you through creating your first campaign on RedCa
 
 Before creating a campaign:
 
-- ✅ **Wallet Setup**: MetaMask configured for Base Sepolia ([Guide](../getting-started/wallet-setup.md))
-- ✅ **Base Sepolia ETH**: At least 0.1 ETH for gas fees
-- ✅ **Test USDC**: For testing (if needed)
+- ✅ **Wallet Setup**: MetaMask or compatible wallet configured ([Guide](../getting-started/wallet-setup.md))
+- ✅ **ETH**: Sufficient for gas fees
+- ✅ **USDC**: For funding your campaign
 - ✅ **Whitelist Status**: Approved by screener (if screening enabled)
 - ✅ **Project Details**: All information prepared
 
@@ -365,7 +365,7 @@ Cost: ~0.01-0.05 ETH
 
 #### Transaction Confirmation
 - Transaction hash displayed
-- View on Base Sepolia BaseScan
+- View on a block explorer
 - Campaign contract address generated
 - Token contract address created
 

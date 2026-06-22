@@ -70,10 +70,10 @@ VWAP = Σ(Price × Volume) / Σ(Volume)
 - Impacts collateral factors
 
 **Staleness Thresholds:**
-- Fresh: < 15 minutes (Testnet parameters)
+- Fresh: < 15 minutes
 - Moderate: 1 - 3 days
 - Stale: > 3 days
-- Very stale: > 7 days (Testnet cap)
+- Very stale: > 7 days
 
 **Impact:**
 - Stale prices increase risk tier
@@ -95,14 +95,14 @@ The RiskOracle assesses tokens into risk tiers:
 - Stable price action
 
 **YELLOW (Medium Risk):**
-- Moderate price staleness (1-3 days on testnet)
+- Moderate price staleness (1-3 days)
 - Moderate trading volume
 - Medium vault utilization
 - Some volatility
 - Minor concerns
 
 **RED (High Risk):**
-- Stale prices (> 3 days on testnet)
+- Stale prices (> 3 days)
 - Low/no trading volume
 - High vault utilization
 - Wash trading suspected

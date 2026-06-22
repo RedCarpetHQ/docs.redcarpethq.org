@@ -46,9 +46,8 @@ Community discussions
 📚 You're reading it!  
 Comprehensive guides and references
 
-**GitHub**  
-💻 [github.com/redcarpethq](https://github.com/redcarpethq)  
-Smart contracts and technical resources
+**Developer Resources**  
+� Technical documentation and API references available on request
 
 ## What to Include
 

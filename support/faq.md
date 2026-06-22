@@ -4,15 +4,15 @@
 
 ### What is RedCarpetHQ?
 
-RedCarpetHQ is a decentralized platform for movie producers to raise funds through tokenized campaigns. Supporters receive tradable ERC20 tokens that can be used for trading, DeFi activities, and dividend distributions.
+RedCarpetHQ is a decentralized platform for movie producers to raise funds through tokenized campaigns. Investors receive tradable ERC20 tokens that can be used for trading, DeFi activities, and dividend distributions.
 
 ### Is RedCarpetHQ live?
 
-Yes, on Base Sepolia. Mainnet launch coming after thorough testing and audits.
+The platform is live. Deployment details are available on the platform dashboard.
 
 ### What blockchain does it use?
 
-Currently Base Sepolia. Mainnet deployment planned on Base Mainnet.
+The platform operates on an EVM-compatible Layer 2 network. Network details are available on the platform dashboard.
 
 ### What tokens are supported?
 
@@ -27,7 +27,7 @@ Smart contracts are battle-tested and follow security best practices. However, D
 ### How do I create a campaign?
 
 1. Get whitelisted by screeners (if screening enabled)
-2. Connect wallet with Base Sepolia ETH
+2. Connect wallet with ETH for gas
 3. Click "Create Campaign"
 4. Fill in all details
 5. Deploy to blockchain
@@ -173,20 +173,19 @@ If your collateral value drops below liquidation threshold:
 
 MetaMask (recommended), WalletConnect, Coinbase Wallet, or Rainbow Wallet.
 
-### How do I get Base Sepolia ETH?
+### How do I get ETH for gas?
 
-Use faucets:
-- Base Sepolia Faucet
+Purchase ETH through your preferred exchange or on-ramp and transfer it to your wallet.
 
 See [Wallet Setup](../getting-started/wallet-setup.md).
 
 ### How do I get test USDC?
 
-Contact support or use platform faucet (if available).
+Contact support for assistance with acquiring USDC.
 
 ### What are gas fees?
 
-Transaction costs paid in Base Sepolia ETH. Varies by network congestion. On Base Sepolia, ETH is free from faucets.
+Transaction costs paid in ETH. Varies by network congestion. On Layer 2 networks, fees are typically very low.
 
 ### Why is my transaction pending?
 
@@ -238,11 +237,11 @@ No guaranteed returns. Depends on:
 
 ### Who runs RedCarpetHQ?
 
-Decentralized platform with smart contracts on Ethereum. Core team handles development and operations.
+Decentralized platform with smart contracts on an EVM-compatible network. Core team handles development and operations.
 
 ### Is it open source?
 
-Smart contracts are verified and public on Etherscan. Frontend code availability TBD.
+Smart contracts are verified and publicly auditable. Frontend code availability TBD.
 
 ### How is the platform funded?
 
@@ -296,12 +295,12 @@ When successful campaign is finalized:
 ### Can campaigns be cancelled?
 
 Yes, by:
-- Creator (anytime, but supporters get refunds)
+- Creator (anytime, but investors get refunds)
 - Screener (if terms violated)
 
 ### What happens to failed campaigns?
 
-All supporters get full refunds. No fees charged. Token supply remains locked.
+All investors get full refunds. No fees charged. Token supply remains locked.
 
 ## DeFi Questions
 

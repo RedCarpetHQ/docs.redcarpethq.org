@@ -28,9 +28,9 @@ Common issues and solutions for RedCarpetHQ users.
    - Restart browser
 
 3. **Check Network**
-   - Switch to Base Sepolia in MetaMask
+   - Switch to the correct network in MetaMask
    - Verify RPC connection
-   - Try different RPC endpoint
+   - Try a different RPC endpoint
 
 4. **Disable Other Wallets**
    - Only one wallet extension active
@@ -46,18 +46,14 @@ Common issues and solutions for RedCarpetHQ users.
 
 **Solutions:**
 
-1. **Switch to Base Sepolia**
+1. **Switch to the Correct Network**
    ```
-   MetaMask → Network dropdown → Base Sepolia
+   MetaMask → Network dropdown → Select the platform network
    ```
 
-2. **Add Base Sepolia Manually**
+2. **Add Network Manually**
    ```
-   Network Name: Base Sepolia
-   RPC URL: https://sepolia.base.org
-   Chain ID: 84532
-   Currency: ETH
-   Explorer: https://sepolia.basescan.org/
+   Use the network details provided on the platform dashboard.
    ```
 
 3. **Auto-Switch**
@@ -76,19 +72,18 @@ Common issues and solutions for RedCarpetHQ users.
 
 1. **Check Balances**
    ```
-   Base Sepolia ETH: For gas fees
+   ETH: For gas fees
    USDC: For purchases/trades
    Tokens: For selling/collateral
    ```
 
-2. **Get Base Sepolia ETH**
-   - Use faucets (see [Wallet Setup](../getting-started/wallet-setup.md))
-   - Request from support
+2. **Acquire ETH**
+   - Purchase through your exchange or on-ramp
+   - Transfer to your wallet
 
-3. **Get Test USDC**
-   - Platform faucet (if available)
-   - Contact support
-   - Community requests
+3. **Acquire USDC**
+   - Purchase through your exchange or on-ramp
+   - Transfer to your wallet
 
 ## Transaction Issues
 
@@ -102,8 +97,8 @@ Common issues and solutions for RedCarpetHQ users.
 **Solutions:**
 
 1. **Check Network Status**
-   - Visit sepolia.basescan.org
-   - Check for network issues
+   - Check a block explorer
+   - Check the platform status page
    - Verify block production
 
 2. **Speed Up Transaction**
@@ -216,8 +211,8 @@ Or: Wait for pending tx to clear
 
 2. **Verify Requirements**
    ```
-   ✓ Sufficient Base Sepolia ETH (~0.1)
-   ✓ Connected to Base Sepolia network
+   ✓ Sufficient ETH for gas
+   ✓ Connected to the correct network
    ✓ All fields filled correctly
    ✓ Token symbol unique
    ✓ Dates valid (future times)
@@ -391,7 +386,7 @@ Or: Wait for pending tx to clear
    ```
 
 3. **Verify Transaction**
-   - Check transaction on Etherscan
+   - Check transaction on a block explorer
    - Confirm it succeeded
    - Wait for indexing (1-2 min)
 
@@ -601,7 +596,7 @@ Check:
 
 2. **Check Blockchain**
    ```
-   Visit: sepolia.basescan.org
+   Visit: A block explorer (link on platform dashboard)
    Enter: Your wallet address
    Verify: Actual balance
    ```

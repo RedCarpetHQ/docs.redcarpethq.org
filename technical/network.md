@@ -2,113 +2,82 @@
 
 ## Overview
 
-RedCarpetHQ operates exclusively on the Base Sepolia. This guide covers network details, configuration, and how to interact with the platform.
+RedCarpetHQ operates on an EVM-compatible Layer 2 network optimized for low-cost, high-speed transactions. This guide covers general network concepts and how to interact with the platform.
 
-## Network Details
+## Supported Networks
 
-### Base Sepolia
+The platform runs on an EVM-compatible Layer 2. When you connect your wallet, the platform will automatically prompt you to switch to the correct network.
 
-**Network Information:**
-- **Network Name:** Base Sepolia
-- **Chain ID:** 84532
-- **Currency Symbol:** ETH
-- **Block Explorer:** https://sepolia.basescan.org/
-- **RPC URL:** https://sepolia.base.org
+### Network Properties
 
-**Why Base Sepolia?**
-- Stable testnet
-- Long-term support
-- Active community
-- Proof-of-Stake consensus
-- Similar to mainnet
+- **Type**: EVM-compatible Layer 2
+- **Consensus**: Proof-of-Stake
+- **Currency Symbol**: ETH (for gas)
+- **Payment Token**: USDC (6 decimals)
 
-## Adding Base Sepolia to MetaMask
+## Wallet Configuration
 
-### Automatic Addition
+### Automatic Network Switch
 
-**Via Chainlist:**
-1. Visit https://chainlist.org
-2. Search for "Base Sepolia"
-3. Click "Add to MetaMask"
-4. Approve in MetaMask
+The simplest way to configure your wallet:
 
-### Manual Addition
+1. Visit the RedCarpetHQ platform
+2. Click "Connect Wallet"
+3. Approve the network switch when prompted
+4. Your wallet will automatically add the correct network parameters
 
-**Step-by-Step:**
-1. Open MetaMask
-2. Click network dropdown
-3. Select "Add Network"
-4. Click "Add a network manually"
-5. Enter details:
-   - **Network Name:** Base Sepolia
-   - **New RPC URL:** https://sepolia.base.org
-   - **Chain ID:** 84532
-   - **Currency Symbol:** ETH
-   - **Block Explorer:** https://sepolia.basescan.org/
-6. Click "Save"
+### Manual Configuration
 
-## Getting Test ETH
+If automatic switching fails, you can add the network manually:
 
-### Base Sepolia Faucets
+1. Open your wallet (MetaMask, etc.)
+2. Click the network dropdown
+3. Select "Add Network" → "Add network manually"
+4. Enter the network details provided on the platform
+5. Click "Save"
 
-**Recommended Faucets:**
+> **Note:** Exact RPC URLs, chain IDs, and explorer links are available on the platform dashboard and may be updated from time to time. Always refer to the platform for the current network configuration.
 
-**1. Base Sepolia Faucet**
-- URL: https://portal.cdp.coinbase.com/products/faucet
-- Requires: Base Sepolia account
-- Amount: 0.1 ETH per day
+## Gas and Fees
 
-### Using Faucets
+### Transaction Costs
 
-**General Process:**
-1. Visit faucet website
-2. Connect wallet or enter address
-3. Complete verification (if required)
-4. Request test ETH
-5. Wait for transaction (1-2 minutes)
-6. Check wallet balance
+All blockchain transactions require gas, paid in the network's native token:
 
-**Tips:**
-- Use multiple faucets if needed
-- Wait 24 hours between requests
-- Don't abuse faucets
-- Share with community if you have extra
+**Typical Operations:**
+- Simple transfer: ~21,000 gas
+- Token purchase: ~150,000 gas
+- Create offer: ~200,000 gas
+- Fill offer: ~200,000 gas
+- Vault deposit: ~180,000 gas
+- Borrow: ~250,000 gas
 
-## Getting Test USDC
+**Estimating Costs:**
+```
+Cost (ETH) = Gas Used × Gas Price (Gwei) / 1,000,000,000
+```
 
-### Base Sepolia USDC Faucet
+### Optimizing Gas
 
-**Official Faucet:**
-- Available on RedCarpetHQ platform
-- Navigate to "Get Test USDC"
-- Connect wallet
-- Request test USDC
-- Receive 1,000 USDC per request
-
-**USDC (test) Contract Address:**
-- `0x16e41b7137b281c35f305140ccfb2863865ea627`
-
-**Adding USDC to Wallet:**
-1. Open MetaMask
-2. Click "Import tokens"
-3. Enter USDC contract address
-4. Token symbol: USDC
-5. Decimals: 6
-6. Click "Add Custom Token"
+**Best Practices:**
+- Batch multiple operations when possible
+- Claim multiple dividends in a single transaction
+- Approve token spending limits once for repeated use
+- Avoid peak congestion periods for non-urgent transactions
 
 ## Contract Addresses
 
-### Global Contracts
+### Global Protocol Contracts
 
 **Core Protocol:**
-- **FeeDistributor:** `0x[ADDRESS]`
-- **RiskOracle:** `0x[ADDRESS]`
-- **Market:** `0x[ADDRESS]`
-- **Contest:** `0x[ADDRESS]`
-- **HybridPriceOracle:** `0x[ADDRESS]`
-
-**Tokens:**
-- **USDC (testnet):** `0xd991bF388cA02e60403896c6D1d81308C13d5459`
+- **Registry**
+- **Campaign**
+- **Market**
+- **FeeDistributor**
+- **Contest**
+- **RiskOracle**
+- **HybridPriceOracle**
+- **DividendDistributor**
 
 > **Note:** Contract addresses are available on the platform and updated regularly. Check the platform for current addresses.
 
@@ -122,175 +91,69 @@ RedCarpetHQ operates exclusively on the Base Sepolia. This guide covers network 
 
 **Finding Addresses:**
 - View on campaign page
-- Check Base Sepolia Explorer
-- Query via API
+- Query via platform API
 - Available in transaction history
 
-## Block Explorer
+## Block Explorers
 
-### Base Sepolia Explorer
+You can verify transactions using any compatible block explorer:
 
-**URL:** https://sepolia.basescan.org/
+1. Copy your transaction hash from your wallet
+2. Paste it into the block explorer
+3. View confirmation status, gas used, and token transfers
 
-**Features:**
-- Transaction history
-- Contract verification
-- Token tracking
-- Address analytics
-- Gas tracker
-
-**How to Use:**
-1. Enter address/transaction hash
-2. View details
-3. Check contract code
-4. Monitor activity
-5. Export data
-
-### Verifying Transactions
-
-**Check Your Transactions:**
-1. Copy transaction hash from wallet
-2. Paste into Base Sepolia Explorer
-3. View transaction details
-4. Confirm status
-5. Check gas used
-
-## RPC Endpoints
-
-### Public RPC Providers
-
-**Base:**
-- URL: https://sepolia.base.org
-- Free
-- Reliable and fast
-
-## Gas and Fees
-
-### Gas Prices
-
-**Typical Gas Prices:**
-- Low: 1-2 Gwei
-- Average: 2-5 Gwei
-- High: 5-10 Gwei
-
-**Gas Costs:**
-- Simple transfer: ~21,000 gas
-- Token swap: ~50,000-100,000 gas
-- Complex DeFi: 100,000-300,000 gas
-
-**Estimating Costs:**
-```
-Cost (ETH) = Gas Used × Gas Price (Gwei) / 1,000,000,000
-```
-
-**Example:**
-- Gas used: 100,000
-- Gas price: 5 Gwei
-- Cost: 0.0005 ETH (~$0.001 at testnet)
-
-### Optimizing Gas
-
-**Save on Gas:**
-- Batch transactions when possible
-- Use lower gas prices for non-urgent
-- Avoid peak times
-- Approve tokens once
-- Monitor gas tracker
+> **Note:** Block explorer URLs are provided on the platform dashboard.
 
 ## Network Status
 
 ### Monitoring
 
 **Check Network Health:**
-- Base Sepolia Explorer status page
-- Etherscan gas tracker
+- Block explorer status pages
 - RPC provider status pages
+- Platform status page
 - Community channels
 
 **Common Issues:**
-- Network congestion
-- RPC downtime
-- Faucet unavailability
+- Network congestion (rare on L2s)
+- RPC provider downtime
 - Slow block times
 
 ### Troubleshooting
 
 **If Transactions Fail:**
-1. Check network status
-2. Verify gas settings
-3. Ensure sufficient ETH
-4. Try different RPC
-5. Clear pending transactions
+1. Check network status on the platform
+2. Verify gas settings in your wallet
+3. Ensure sufficient ETH for gas
+4. Try refreshing the page and reconnecting
+5. Clear pending transactions in your wallet
 
-## Development Tools
+## Security
 
-### For Developers
+### Verifying Transactions
 
-**Useful Tools:**
-- Hardhat (development framework)
-- Foundry (testing framework)
-- Remix (online IDE)
-- Tenderly (debugging)
-- OpenZeppelin (contracts)
+Always verify transaction details before signing:
+- ✅ Check the recipient address
+- ✅ Confirm token amounts
+- ✅ Review gas fees
+- ✅ Verify contract interactions
 
-**Base Sepolia Configuration:**
-```javascript
-// Hardhat config example
-base-sepolia: {
-  url: "https://sepolia.base.org",
-  chainId: 84532,
-  accounts: [PRIVATE_KEY]
-}
-```
+### Wallet Safety
 
-## Future Plans
-
-### Mainnet Migration
-
-**When Ready:**
-- Thorough testing complete
-- Security audits passed
-- Community feedback incorporated
-- Gradual rollout planned
-
-**Migration Process:**
-- Announcement in advance
-- User migration guide
-- Support during transition
-- Testnet remains available
-
-## Frequently Asked Questions
-
-**Q: Why use a testnet?**
-A: Testnets allow safe testing without real money at risk. Perfect for development and user testing.
-
-**Q: Can I use real money on Base Sepolia?**
-A: No, Base Sepolia uses test ETH and test USDC with no real value.
-
-**Q: How do I get more test ETH?**
-A: Use the faucets listed above. Wait 24 hours between requests.
-
-**Q: What if I run out of test ETH?**
-A: Request more from faucets or ask in community channels.
-
-**Q: Will my testnet tokens transfer to mainnet?**
-A: No, testnet and mainnet are completely separate. Testnet tokens have no value.
-
-**Q: Is Base Sepolia the same as Base mainnet?**
-A: Technically similar but separate network. Same tools and wallets work on both.
-
-**Q: How long will RedCarpetHQ stay on testnet?**
-A: Until thoroughly tested and ready for mainnet. Timeline TBA.
+- Never share your seed phrase
+- Use hardware wallets for large amounts
+- Verify URLs before connecting
+- Be cautious of phishing attempts
 
 ## Related Resources
 
-- [Wallet Setup](getting-started/wallet-setup.md)
-- [Smart Contracts](technical/contracts.md)
-- [Security & Audits](technical/security.md)
-- [Troubleshooting](support/troubleshooting.md)
+- [Wallet Setup](../getting-started/wallet-setup.md)
+- [Smart Contracts](contracts.md)
+- [Security & Audits](security.md)
+- [Troubleshooting](../support/troubleshooting.md)
 
 ---
 
 **Need Help?**
 
-If you have questions about network configuration, contact our support team at support@redcarpethq.org.
+Contact our support team at support@redcarpethq.org.

@@ -1,6 +1,6 @@
 # Wallet Setup
 
-To use RedCarpetHQ, you need a Web3 wallet configured for Base Sepolia.
+To use RedCarpetHQ, you need a Web3 wallet that supports EVM-compatible networks.
 
 ## Supported Wallets
 
@@ -24,9 +24,7 @@ To use RedCarpetHQ, you need a Web3 wallet configured for Base Sepolia.
 2. Open app and create/import wallet
 3. Secure your seed phrase (write it down!)
 
-### 2. Add Base Sepolia Network
-
-MetaMask may already have Base Sepolia Network. If not, add manually:
+### 2. Add the Network
 
 **Automatic (Recommended)**
 1. Visit RedCarpetHQ platform
@@ -37,45 +35,25 @@ MetaMask may already have Base Sepolia Network. If not, add manually:
 1. Open MetaMask
 2. Click network dropdown (top)
 3. Click "Add Network" → "Add network manually"
-4. Enter details:
+4. Enter the network details provided on the platform dashboard
+5. Click "Save"
 
-```
-Network Name: Base Sepolia
-RPC URL: https://sepolia.base.org
-Chain ID: 84532
-Currency Symbol: ETH
-Block Explorer: https://sepolia.basescan.org/
-```
+> **Note:** Exact RPC URLs, chain IDs, and explorer links are available on the platform and may be updated from time to time.
 
-### 3. Get Base Sepolia ETH (Gas)
+### 3. Ensure You Have Gas Tokens
 
-You need Base Sepolia to pay for transactions:
+You need the network's native token (ETH) to pay for transactions:
 
-**Faucets (Free)**
-- [List of Faucets](https://docs.base.org/base-chain/tools/network-faucets#network-faucets)
+- Ensure your wallet has a small amount of ETH for gas
+- Most transactions cost less than $0.01 in gas fees on Layer 2
 
-**Steps:**
-1. Copy your wallet address from MetaMask
-2. Visit a faucet
-3. Paste address and request ETH
-4. Wait 1-2 minutes for confirmation
-
-**Amount Needed:** 0.1-0.5 ETH is sufficient for testing
-
-### 4. Get Test USDC
+### 4. Ensure You Have USDC
 
 RedCarpetHQ uses USDC for all transactions:
 
-**Option A: Platform Faucet**
-1. Connect wallet to RedCarpetHQ
-2. Navigate to "Get Test USDC" (if available)
-3. Request test tokens
-
-**Option B: Admin Request**
-1. Contact support with your wallet address
-2. Receive test USDC directly
-
-**Amount Provided:** Typically 10,000 test USDC
+1. Acquire USDC through your preferred exchange or on-ramp
+2. Transfer USDC to your wallet address
+3. The platform will prompt you to approve USDC spending when needed
 
 ## WalletConnect Setup
 
@@ -87,9 +65,9 @@ RedCarpetHQ uses USDC for all transactions:
    - Trust Wallet
    - Coinbase Wallet
 
-2. **Configure Base Sepolia Network**
+2. **Configure Network**
    - Follow wallet-specific instructions
-   - Add Base Sepolia network details (see above)
+   - Add network details from the platform dashboard
 
 3. **Connect to RedCarpetHQ**
    - Visit platform on mobile browser
@@ -171,10 +149,10 @@ Create separate accounts for different purposes:
 
 **MetaMask:**
 1. Click network dropdown (top)
-2. Select "Base Sepolia" or other network
+2. Select the correct network
 3. Confirm switch
 
-**Important:** Always verify you're on Base Sepolia before transactions!
+**Important:** Always verify you're on the correct network before transactions!
 
 ### Viewing Tokens
 
@@ -192,12 +170,11 @@ Find on campaign page or in transaction details.
 
 ### "Insufficient Funds" Error
 
-**Cause:** Not enough Base Sepolia ETH for gas
+**Cause:** Not enough native gas token (ETH) for gas
 
 **Solution:**
-1. Check Base Sepolia ETH balance in MetaMask
-2. Get more from faucet (see above)
-3. Wait for faucet transaction to confirm
+1. Check ETH balance in MetaMask
+2. Acquire more through your exchange or on-ramp
 
 ### "Wrong Network" Warning
 
@@ -205,7 +182,7 @@ Find on campaign page or in transaction details.
 
 **Solution:**
 1. Click network dropdown
-2. Switch to Base Sepolia
+2. Switch to the correct network
 3. Refresh page
 
 ### Transaction Stuck
@@ -237,19 +214,19 @@ Find on campaign page or in transaction details.
 **Solution:**
 1. Import token manually (see above)
 2. Or wait - some wallets auto-detect
-3. Check on Base Sepolia BaseScan to verify balance
+3. Check a block explorer to verify balance
 
 ## Testing Your Setup
 
 Before creating a campaign, test your setup:
 
 ### 1. Check Balances
-- ✅ Sepolia ETH: >0.1 ETH
-- ✅ Test USDC: >100 USDC
+- ✅ ETH: Sufficient for gas
+- ✅ USDC: Available for trading
 
 ### 2. Test Transaction
 - ✅ Send small USDC amount to yourself
-- ✅ Verify transaction on Sepolia Etherscan
+- ✅ Verify transaction on a block explorer
 - ✅ Confirm gas payment worked
 
 ### 3. Connect to Platform

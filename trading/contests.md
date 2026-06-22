@@ -9,7 +9,7 @@ RedCarpetHQ runs epoch-based trading contests that reward active traders with a 
 ### Epoch System
 
 **Contest Periods:**
-- Typically 7-day epochs (currently set to 5 minutes on Base Sepolia testnet)
+- Typically 7-day epochs (shorter durations may be used during testing)
 - Start/end times announced
 - Automatic rollover to next epoch
 - Continuous participation
@@ -204,7 +204,7 @@ Trading Fees = Buy Volume × 2.5%
 ### Standard Contests
 
 **Regular epochs:**
-- Regular 7-day periods (currently 5 minutes on testnet)
+- Regular 7-day periods (shorter durations may be used during testing)
 - Consistent rules
 - Predictable timing
 - Standard reward pool

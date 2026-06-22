@@ -1,6 +1,6 @@
 # Smart Contracts Reference
 
-RedCarpetHQ is powered by battle-tested smart contracts on Base Sepolia. This reference provides technical details for developers and advanced users.
+RedCarpetHQ is powered by battle-tested smart contracts. This reference provides technical details for developers and advanced users.
 
 ## Contract Architecture
 
@@ -446,6 +446,51 @@ pragma solidity 0.8.20;
 // Automatic overflow/underflow protection
 ```
 
+## Agentic Trading & Integrator Commission
+
+For developers building trading interfaces, bots, or agentic trading agents, the platform exposes fee-aware functions that allow integrators to earn a commission on every trade they facilitate.
+
+### Integrator Commission (`uiFeeFactor`)
+
+Integrators can earn a share of trading fees by routing orders through fee-aware functions. The commission is configurable per integrator address.
+
+**Commission Structure:**
+- **Maximum Commission:** Up to 0.5% of the trade value (50 basis points)
+- **Source:** Deducted from the total 2.5% trading fee
+- **Payment:** Sent directly to the integrator's specified address at transaction time
+
+**How It Works:**
+1. An integrator registers their commission rate (in basis points)
+2. When a trader executes through the integrator's interface, the commission is calculated automatically
+3. The integrator receives their share directly in USDC
+4. The remaining fee follows the standard 40/40/10/10 distribution
+
+**Use Cases:**
+- Trading frontends earning revenue on user volume
+- Arbitrage bots capturing spreads
+- Agentic trading agents operating on behalf of users
+- Mobile apps integrating the marketplace
+
+### Batch Operations (MarketMulticall)
+
+For high-frequency traders and bots, batch operations reduce gas costs and improve throughput:
+
+**Query Functions:**
+- `getOpenOffers(token, startIndex, limit)`: Paginated list of open offers
+- `getOffersInPriceRange(token, minPrice, maxPrice)`: Filtered offers by price
+- `getBuyOffers(token)`: All buy offers for a token
+- `getSellOffers(token)`: All sell offers for a token
+
+**Batch Execution:**
+- `batchFillBuyOffers(offerIds[], amounts[])`: Fill multiple buy offers in one transaction
+- `batchFillSellOffers(offerIds[], amounts[])`: Fill multiple sell offers in one transaction
+- `batchCancelOffers(offerIds[])`: Cancel multiple of your own offers
+
+**Benefits:**
+- Up to 80% gas savings vs individual transactions
+- Atomic execution (all succeed or all fail)
+- Reduced transaction count for high-frequency strategies
+
 ## Gas Optimization
 
 ### Efficient Storage
@@ -492,78 +537,37 @@ function claimMultipleDividends(
 | Liquidate | ~300,000 | $15 |
 | Claim Dividend | ~80,000 | $4 |
 
-*Estimates for Base Sepolia. Mainnet may vary.*
+*Estimates for Layer 2 networks. Actual costs may vary based on network conditions.*
 
 ## Contract Addresses
 
-### Base Sepolia
+Current contract addresses are available on the platform dashboard and updated with each deployment.
 
-```
-Registry: [Address]
-Campaign: [Address]
-Market: [Address]
-FeeDistributor: [Address]
-Contest: [Address]
-RiskOracle: [Address]
-HybridPriceOracle: [Address]
-OptimisticPriceOracle: [Address]
-DividendDistributor: [Address]
-LendingManager: [Address]
-KeeperRegistry: [Address]
-BurnRedemption: [Address]
-
-USDC (Test): [Address]
-```
-
-### Verification
-
-All contracts verified on Base Sepolia Explorer:
-- View source code
-- Read contract state
-- Write contract functions
-- View events
+> **Note:** For security, addresses are not hard-coded in public documentation. Always verify the current deployment addresses on the official platform before interacting with contracts.
 
 ## ABIs
 
-Contract ABIs available at:
-- Platform: `/abis/[ContractName].json`
-- Subgraph: `/subgraph/abis/[ContractName].json`
-- NPM: `@redcarpethq/contracts` (coming soon)
+Contract ABIs are available through the platform API or by querying verified contracts directly on a block explorer.
 
-## Development
+## Integration
 
-### Local Testing
-
-```bash
-# Clone repository
-git clone https://github.com/redcarpethq/smart-contracts
-
-# Install dependencies
-cd smart-contracts
-forge install
-
-# Run tests
-forge test
-
-# Deploy locally
-forge script script/DeployContracts.s.sol
-```
-
-### Integration
+### Web3.js
 
 ```javascript
-// Web3.js
 const Web3 = require('web3');
-const web3 = new Web3('https://sepolia.base.org');
+const web3 = new Web3(RPC_URL); // Use platform-provided RPC
 
-const campaignABI = require('./abis/Campaign.json');
+const campaignABI = [ /* ABI from platform API */ ];
 const campaign = new web3.eth.Contract(campaignABI, CAMPAIGN_ADDRESS);
+```
 
-// Ethers.js
+### Ethers.js
+
+```javascript
 const { ethers } = require('ethers');
-const provider = new ethers.providers.JsonRpcProvider('https://sepolia.base.org');
+const provider = new ethers.JsonRpcProvider(RPC_URL); // Use platform-provided RPC
 
-const campaignABI = require('./abis/Campaign.json');
+const campaignABI = [ /* ABI from platform API */ ];
 const campaign = new ethers.Contract(CAMPAIGN_ADDRESS, campaignABI, provider);
 ```
 

@@ -575,6 +575,54 @@ Fair distribution by contribution
 - Checks-Effects-Interactions pattern
 - State updates before external calls
 
+## Platform Investor Perspective
+
+### Why This Architecture Creates Defensibility
+
+For investors evaluating RedCarpetHQ as a protocol or business, our design choices are not just engineering preferences — they are competitive moats.
+
+**The Fee Model as a Flywheel**
+
+Our 40/40/10/10 fee split is designed to be self-sustaining:
+- **40% to Contests** incentivizes trading volume
+- **More volume** generates more trading fees
+- **More fees** grow the contest pool, attracting more traders
+- **Result**: A self-reinforcing liquidity engine that requires no external subsidy
+
+Traditional exchanges spend millions on market maker programs. We recycle our own fees into trader incentives.
+
+**Zero Campaign Fees as Customer Acquisition**
+
+By not charging producers to raise, we remove the #1 barrier to listing:
+- Producers flock to the platform with the lowest cost of capital
+- More campaigns = more tokens = more trading pairs
+- More trading pairs = more volume = more fee revenue
+- **Result**: Network effects without burning cash on acquisition
+
+**AI Risk Oracle as Scalable Compliance**
+
+Manual due diligence does not scale. Our RiskOracleV3 enables:
+- Exponential token listings without proportional staffing
+- Automatic parameter adjustment (no governance votes for every token)
+- Real-time protection that reacts faster than any human committee
+- **Result**: We can onboard 10x more projects than a manually-screened platform
+
+**ERC-4626 as Distribution**
+
+By building on the ERC-4626 standard, we gain distribution automatically:
+- Zapper, DeBank, and other aggregators display our vaults without custom integration
+- Wallets show balances natively
+- DeFi strategists can compose our vaults into larger yield strategies
+- **Result**: Every new ERC-4626 integrator becomes a distribution channel for free
+
+**Why Testnet-First Is Capital Efficient**
+
+We have iterated through three major contract architectures (V1 → V2 → V3) on testnet before mainnet:
+- Bugs found cost $0 in user funds
+- Gas optimizations tested under realistic conditions
+- RiskOracle parameters tuned with real trade data
+- **Result**: When we launch mainnet, we are operationally mature, not experimentally naive
+
 ## Platform Evolution
 
 ### Why Unified Architecture?
@@ -599,7 +647,7 @@ Fair distribution by contribution
 
 ### Testnet First
 
-**Why Base Sepolia?**
+**Why Testnet First?**
 
 **Before Mainnet:**
 - ✅ Test all features

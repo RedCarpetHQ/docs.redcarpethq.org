@@ -5,7 +5,7 @@ Understanding these core concepts will help you navigate RedCarpetHQ effectively
 ## Campaign Concepts
 
 ### Campaign Token
-Each campaign issues its own ERC20 token. When supporters back your project, they receive tokens representing their stake. These tokens can be:
+Each campaign issues its own ERC20 token. When investors fund your project, they receive tokens representing their economic stake. These tokens can be:
 - Traded on the marketplace
 - Used as collateral for borrowing
 - Held to receive dividends
@@ -45,7 +45,7 @@ After a successful campaign, creators have **2 weeks** to decide whether to clai
 ### Price Per Token
 Set during campaign creation. Example:
 - Price: 1 USDC per token
-- Backer invests: 100 USDC
+- Investor contributes: 100 USDC
 - Tokens received: 100 tokens
 
 ### Token Graduation
@@ -209,17 +209,16 @@ Some features have delays before activation:
 
 ## Network Concepts
 
-### Base Sepolia
-Testnet blockchain where RedCarpetHQ operates:
-- **Block Time**: ~12 seconds
-- **Gas Token**: Base Sepolia ETH (free from faucets)
-- **Explorer**: https://sepolia.basescan.org/
+### Network
+EVM-compatible Layer 2 where RedCarpetHQ operates:
+- **Block Time**: ~2 seconds (Layer 2)
+- **Gas Token**: ETH
+- **Explorer**: Available on the platform dashboard
 
 ### USDC (6 Decimals)
 Payment token for all transactions:
 - 1 USDC = 1,000,000 (6 decimals)
-- Testnet USDC available from platform
-- Real USDC on mainnet deployment
+- Acquire through your preferred exchange or on-ramp
 
 ### Gas Fees
 Transaction costs paid in ETH:
