@@ -144,6 +144,19 @@
     </style>
 </head>
 <body>
+    <!--
+      SPA redirect for GitHub Pages + history mode:
+      If we land here from 404.html, restore the original path.
+    -->
+    <script>
+        (function () {
+            var redirect = sessionStorage.getItem('docsify-redirect');
+            if (redirect) {
+                sessionStorage.removeItem('docsify-redirect');
+                history.replaceState(null, null, redirect);
+            }
+        })();
+    </script>
     <div id="app"></div>
     <script>
         // Docsify Configuration
@@ -159,6 +172,7 @@
             subMaxLevel: 3,
             auto2top: true,
             homepage: 'README.md',
+            routerMode: 'history',
             notFoundPage: '404.md',
             
             // Search configuration
@@ -231,7 +245,7 @@
                         if (typeof gtag === 'function') {
                             gtag('event', 'page_view', {
                                 page_location: window.location.href,
-                                page_path: window.location.hash || '/',
+                                page_path: window.location.pathname,
                                 page_title: document.title,
                                 send_to: 'G-69YFYPVYH0'
                             });
