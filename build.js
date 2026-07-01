@@ -150,6 +150,15 @@ function build() {
         // Modify the template for this specific page
         let pageHtml = template;
 
+        // Inject <base> tag so relative URLs (including Docsify's markdown fetch)
+        // resolve from the domain root, not the subdirectory
+        if (!pageHtml.includes('<base href=')) {
+            pageHtml = pageHtml.replace(
+                /<head>/,
+                `<head>\n    <base href="${BASE_URL}/">`
+            );
+        }
+
         // Inject SEO meta tags and static content
         const seoHead = `
     <title>${pageTitle}</title>
