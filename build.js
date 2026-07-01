@@ -180,6 +180,14 @@ function build() {
             prerenderedBody
         );
 
+        // Inject basePath so Docsify resolves markdown from root, not the subdirectory
+        if (!pageHtml.includes('basePath:')) {
+            pageHtml = pageHtml.replace(
+                /window\.\$docsify = \{/,
+                "window.$docsify = {\n            basePath: '/',"
+            );
+        }
+
         // Ensure output directory exists
         fs.mkdirSync(outputDir, { recursive: true });
         fs.writeFileSync(outputPath, pageHtml);
